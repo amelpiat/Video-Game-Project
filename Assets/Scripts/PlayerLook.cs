@@ -13,7 +13,8 @@ public class PlayerLook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -21,17 +22,17 @@ public class PlayerLook : MonoBehaviour
     {
         Vector2 MouseInput = new Vector2
         {
-            x = Input.GetAxis("Mouse X"),
-            y = Input.GetAxis("Mouse Y")
+            x = Input.GetAxisRaw("Mouse X"),
+            y = Input.GetAxisRaw("Mouse Y")
         };
 
         // Invert the direction of the mouse input by changing '-' to '+'
-        XYRotation.x += MouseInput.y * Sensitivities.y;
+        XYRotation.x -= MouseInput.y * Sensitivities.y;
         XYRotation.y += MouseInput.x * Sensitivities.x;
 
         // Adjust the clamping range to allow for a range of motion, e.g., -90 to 90 degrees
         XYRotation.x = Mathf.Clamp(XYRotation.x, -90f, 90f);
-        XYRotation.y = Mathf.Clamp(-50f, XYRotation.y, 50f);
+        //XYRotation.y = Mathf.Clamp(-50f, XYRotation.y, 50f);
 
 
         // Apply the rotation to the transform and the camera
