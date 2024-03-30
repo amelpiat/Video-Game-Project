@@ -5,6 +5,7 @@ using UnityEngine;
 public class FollowScript : MonoBehaviour
 {
     public Transform targetObj;
+    public int followTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,6 @@ public class FollowScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(this.transform.position, targetObj.position, 1 * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(this.transform.position, targetObj.position, followTime * Time.deltaTime);
     }
 }
