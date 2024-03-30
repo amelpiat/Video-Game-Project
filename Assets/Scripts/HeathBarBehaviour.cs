@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class HealthBarBehaviour : MonoBehaviour
 {
+    //use a controller to determine when the main character collides with weapons or health items 
+    CharacterController controller;
+
     public Image healthBar;
     public float healthAmount = 100f;
 
@@ -16,7 +19,7 @@ public class HealthBarBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
