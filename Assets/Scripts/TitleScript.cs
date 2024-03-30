@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class TitleScript : MonoBehaviour
 {
-    TMP_Text title;
-    string level;
+    public TMP_Text title;
+    public string level;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class TitleScript : MonoBehaviour
 
     IEnumerator clearTitle()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
 
         title.SetText("");
     }
