@@ -42,6 +42,38 @@ public class HealthBarBehaviour : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        //a collision with a gnome causes the player's health bar to decrement by 2 units 
+        //with a elf causes the health bar to decrement by 5 
+        //with the dragon causes the health bar to decrement by 10 
+
+        //picking up a health potion increments the player's health bar by 3 units 
+
+        if(collision.gameObject.tag == "healthPotion")
+        {
+            if (healthAmount == 100f)
+            {
+                //nothing happens 
+            }
+            else
+            {
+                healthAmount += 30f;
+            }
+
+            //Destroy(collision.gameObject);
+        }
+
+        if(collision.gameObject.tag == "gnome")
+        {
+            //decrement the health bar, then check the main player's health
+            //if healthAmount is < or == 0, restart the level 
+
+            healthAmount -= 30f;
+            Destroy(collision.gameObject);
+        }
+    }
+
     public void DecreaseHealth(int damage)
     {
         healthAmount -= damage;

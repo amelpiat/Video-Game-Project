@@ -8,6 +8,9 @@ public class TitleScript : MonoBehaviour
     public TMP_Text title;
     public string level;
 
+    public TMP_Text displayMessage;
+    public string message;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,15 @@ public class TitleScript : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
 
+        //display the second message 
         title.SetText("");
+
+        yield return new WaitForSeconds(1);
+
+        displayMessage.SetText(message);
+
+        yield return new WaitForSeconds(5);
+
+        displayMessage.SetText("");
     }
 }
