@@ -1,0 +1,259 @@
+Unity Editor version:    2023.2.9f1 (0c9c2e1f4bef)
+Branch:                  2023.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/seabaromarzadeh/Documents/GitHub/Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53028
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/seabaromarzadeh/Documents/GitHub/Project
+/Users/seabaromarzadeh/Documents/GitHub/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8785311232] Host "[IP] 192.168.2.15 [Port] 0 [Flags] 2 [Guid] 37867279 [EditorId] 37867279 [Version] 1048832 [Id] OSXEditor(0,Seabars-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8785311232] Host "[IP] 192.168.2.15 [Port] 0 [Flags] 2 [Guid] 37867279 [EditorId] 37867279 [Version] 1048832 [Id] OSXEditor(0,Seabars-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Assertion failed on expression: 'createdFile'
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/seabaromarzadeh/Documents/GitHub/Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.034746 seconds.
+- Loaded All Assemblies, in  0.839 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  1.421 seconds
+Domain Reload Profiling: 2276ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (187ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (224ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (900ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/seabaromarzadeh/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/seabaromarzadeh/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.642 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.807 seconds
+Domain Reload Profiling: 4474ms
+	BeginReloadAssembly (716ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (710ms)
+		LoadAssemblies (652ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (2000ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Failed to listen on local IPC stream. Error code 0x80000003 (Name in use).
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Shader compiler: failed to launch and initialize compiler executable, even after 10 retries
+Shader compiler initialization error: Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Fatal Error! Shader compiler initialization error: Failed to get ipc connection from UnityShaderCompiler shader compiler! Error code 0x80000006 (Not listening). /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+
+Obtained 37 stack frames.
+#0  0x007ff807a93112 in __pthread_kill
+#1  0x007ff807a15d10 in abort
+#2  0x00000107c2146e in CrashDontLaunchBugReporter()
+#3  0x000001065e9f50 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x000001065e943c in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x000001065eb925 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x000001074b058e in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x000001074b1020 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000106c6a7dd in GetShaderCompilerPerThreadInternal()
+#9  0x00000106c6b2d6 in GetShaderCompilerVersion(ShaderCompilerPlatform)
+#10 0x000001057d1179 in detail::ComputeShaderSnippetKey(ShaderSnippet const&, ShaderType, keywords::LocalKeywordState const&, ShaderCompilerPlatform, fixed_bitset<36, unsigned int> const&, Hash128*, keywords::LocalSpace const&, bool)
+#11 0x000001065eee17 in GetSubProgramForShaderSnippet(ShaderLab::Program*, SubProgramCompilationContext const&, ShaderLab::Pass*, ShaderSnippet const&, ShaderType, unsigned int, fixed_bitset<36, unsigned int> const&, BuildTargetSelection, ShaderCompilerPlatform, ShaderSnippetResult&, ShaderRequirements, AsyncShaderCompilationMode, bool, bool)
+#12 0x00000105814aec in ShaderLab::Program::CompileShaderSubProgram(SubProgramCompilationContext const&, ShaderLab::Pass*, ShaderSnippet const&, unsigned int, ShaderSnippetResult&, ShaderRequirements, AsyncShaderCompilationMode, bool, bool)
+#13 0x000001058160ca in ShaderLab::Program::GetMatchingSubProgram(Shader const*, ShaderLab::Pass const*, keywords::LocalKeywordState const&, unsigned int, keywords::LocalKeywordState*, ShaderSnippetResult&, AsyncShaderCompilationMode, bool, int, int, bool) const
+#14 0x000001058212a9 in ShaderLab::ShaderState::FindSubProgramsToUse(Shader const*, ShaderLab::Pass const*, ShaderLab::SubPrograms&, ShaderPassContext const&, keywords::LocalKeywordState const&, bool, int, int) const
+#15 0x000001074f5d97 in Shader::EditorVariantWarmup()
+#16 0x000001065ed9b9 in WarmupEditorShaders()
+#17 0x000001074f5a55 in Shader::RecreateAllShaders(dynamic_array<Shader*, 0ul> const&)
+#18 0x000001074f5b59 in Shader::ReloadAllShaders()
+#19 0x0000010701b7a2 in invocation function for block in AssetImportWorkerClient::HandleMessage(InitializeMessage const&)::$_10::operator()() const
+#20 0x007ff80790fcc9 in _dispatch_client_callout
+#21 0x007ff80791d1fe in _dispatch_async_and_wait_invoke
+#22 0x007ff80790fcc9 in _dispatch_client_callout
+#23 0x007ff80791c5d8 in _dispatch_main_queue_callback_4CF
+#24 0x007ff807bcd458 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#25 0x007ff807b8ea46 in __CFRunLoopRun
+#26 0x007ff807b8d8a9 in CFRunLoopRunSpecific
+#27 0x007ff810c0f4f1 in RunCurrentEventLoopInMode
+#28 0x007ff810c0f247 in ReceiveNextEventCommon
+#29 0x007ff810c0efe5 in _BlockUntilNextEventMatchingListInModeWithFilter
+#30 0x007ff80a4e3b4c in _DPSNextEvent
+#31 0x007ff80a4e21b8 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#32 0x007ff80a4d45a9 in -[NSApplication run]
+#33 0x007ff80a4a8447 in NSApplicationMain
+#34 0x00000107c49580 in EditorMain(int, char const**)
+#35 0x00000107c498b9 in main
+#36 0x0000020b9d84fe in (Unknown)
