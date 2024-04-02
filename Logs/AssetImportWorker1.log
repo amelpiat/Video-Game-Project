@@ -9,6 +9,7 @@ Running under Rosetta:   YES
 Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
+2024-04-02 16:29:12.887 Unity[81479:2727450] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MacOS/Unity
@@ -22,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54905
+50926
 -job-worker-count
 3
 -background-job-worker-count
@@ -65,12 +66,12 @@ Successfully changed project path to: /Users/ellaharding/Documents/GitHub/Projec
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8742261312] Host "[IP] 172.30.104.53 [Port] 0 [Flags] 2 [Guid] 2281824090 [EditorId] 2281824090 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-104-53.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [8742261312] Host "[IP] 172.30.104.53 [Port] 0 [Flags] 2 [Guid] 2281824090 [EditorId] 2281824090 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-104-53.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8707707456] Host "[IP] 172.30.106.60 [Port] 0 [Flags] 2 [Guid] 3594490770 [EditorId] 3594490770 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-106-60.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8707707456] Host "[IP] 172.30.106.60 [Port] 0 [Flags] 2 [Guid] 3594490770 [EditorId] 3594490770 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-106-60.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -85,7 +86,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56393
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56479
 Begin MonoManager ReloadAssembly
 icall.c:1842:
 icall.c:1842:
@@ -99,43 +100,43 @@ icall.c:1842:
 icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000776 seconds.
-- Loaded All Assemblies, in  0.593 seconds
+Registered in 0.002928 seconds.
+- Loaded All Assemblies, in  0.701 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 icall.c:1842:
 icall.c:1842:
-- Finished resetting the current domain, in  1.457 seconds
-Domain Reload Profiling: 2052ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  1.627 seconds
+Domain Reload Profiling: 2330ms
+	BeginReloadAssembly (254ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (132ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (192ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (176ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (182ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1459ms)
+	FinalizeReload (1630ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1306ms)
+		SetupLoadedEditorAssemblies (1466ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (21ms)
-			BeforeProcessingInitializeOnLoad (22ms)
-			ProcessInitializeOnLoadAttributes (901ms)
-			ProcessInitializeOnLoadMethodAttributes (328ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (1039ms)
+			ProcessInitializeOnLoadMethodAttributes (340ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -156,483 +157,57 @@ icall.c:1842:
 icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.603 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.587 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.776 seconds
-Domain Reload Profiling: 4380ms
-	BeginReloadAssembly (729ms)
+- Finished resetting the current domain, in  2.577 seconds
+Domain Reload Profiling: 4166ms
+	BeginReloadAssembly (732ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (44ms)
+		DisableScriptedObjects (43ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (136ms)
-	LoadAllAssembliesAndSetupDomain (670ms)
-		LoadAssemblies (568ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (249ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (176ms)
-			BuildScriptInfoCaches (41ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2778ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2159ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (1922ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3371 unused Assets / (0.9 MB). Loaded Objects now: 3933.
-Memory consumption went from 123.9 MB to 123.0 MB.
-Total: 5.451666 ms (FindLiveObjects: 0.444667 ms CreateObjectMapping: 0.157833 ms MarkObjects: 3.870500 ms  DeleteObjects: 0.977625 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.067 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.656 seconds
-Domain Reload Profiling: 3726ms
-	BeginReloadAssembly (334ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (38ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
+		CreateAndSetChildDomain (55ms)
 	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (596ms)
-		LoadAssemblies (549ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (596ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (167ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (171ms)
+			BuildScriptInfoCaches (37ms)
 			ResolveRequiredComponents (11ms)
-	FinalizeReload (2657ms)
+	FinalizeReload (2579ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2030ms)
+		SetupLoadedEditorAssemblies (1966ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (1786ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (1776ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (0.5 MB). Loaded Objects now: 3933.
-Memory consumption went from 126.0 MB to 125.5 MB.
-Total: 5.277166 ms (FindLiveObjects: 0.387917 ms CreateObjectMapping: 0.205750 ms MarkObjects: 3.834000 ms  DeleteObjects: 0.848584 ms)
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3371 unused Assets / (1.1 MB). Loaded Objects now: 3933.
+Memory consumption went from 123.9 MB to 122.8 MB.
+Total: 5.470250 ms (FindLiveObjects: 0.465250 ms CreateObjectMapping: 0.154458 ms MarkObjects: 3.750959 ms  DeleteObjects: 1.098584 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.106 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.617 seconds
-Domain Reload Profiling: 3726ms
-	BeginReloadAssembly (333ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (38ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (644ms)
-		LoadAssemblies (604ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (162ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2619ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1937ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (1696ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (38ms)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (482.2 KB). Loaded Objects now: 3933.
-Memory consumption went from 125.3 MB to 124.8 MB.
-Total: 4.987042 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.251458 ms MarkObjects: 3.509416 ms  DeleteObjects: 0.850208 ms)
+Received Import Request.
+  Time since last request: 183673.583278 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(d1afb12b6e195654ea791f3b16ced111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(d1afb12b6e195654ea791f3b16ced111) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44604dc6ec8c6fcc57492ff3a986cd26') in 0.007210833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.129 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.576 seconds
-Domain Reload Profiling: 3708ms
-	BeginReloadAssembly (368ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (41ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (624ms)
-		LoadAssemblies (603ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (164ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2578ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1855ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (1614ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (0.8 MB). Loaded Objects now: 3933.
-Memory consumption went from 127.2 MB to 126.4 MB.
-Total: 5.931000 ms (FindLiveObjects: 0.353083 ms CreateObjectMapping: 0.183875 ms MarkObjects: 4.309000 ms  DeleteObjects: 1.083833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.193 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.742 seconds
-Domain Reload Profiling: 3939ms
-	BeginReloadAssembly (432ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (49ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (619ms)
-		LoadAssemblies (597ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (169ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2744ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2029ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (1787ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (0.9 MB). Loaded Objects now: 3933.
-Memory consumption went from 129.2 MB to 128.3 MB.
-Total: 6.268834 ms (FindLiveObjects: 0.385584 ms CreateObjectMapping: 0.186125 ms MarkObjects: 4.587958 ms  DeleteObjects: 1.107875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.318 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.748 seconds
-Domain Reload Profiling: 4069ms
-	BeginReloadAssembly (528ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (129ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (106ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (639ms)
-		LoadAssemblies (613ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (169ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2749ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2037ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (1780ms)
-			ProcessInitializeOnLoadMethodAttributes (175ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (0.7 MB). Loaded Objects now: 3933.
-Memory consumption went from 131.1 MB to 130.4 MB.
-Total: 5.474292 ms (FindLiveObjects: 0.319833 ms CreateObjectMapping: 0.167458 ms MarkObjects: 3.973250 ms  DeleteObjects: 1.012708 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.264 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.697 seconds
-Domain Reload Profiling: 3965ms
-	BeginReloadAssembly (475ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (45ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (129ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (651ms)
-		LoadAssemblies (646ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (172ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2699ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2051ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (1823ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (0.8 MB). Loaded Objects now: 3933.
-Memory consumption went from 133.0 MB to 132.2 MB.
-Total: 5.059334 ms (FindLiveObjects: 0.325958 ms CreateObjectMapping: 0.131709 ms MarkObjects: 3.617417 ms  DeleteObjects: 0.983167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.095 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.546 seconds
-Domain Reload Profiling: 3645ms
-	BeginReloadAssembly (333ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (586ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (184ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (162ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2548ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1868ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (1607ms)
-			ProcessInitializeOnLoadMethodAttributes (184ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3369 unused Assets / (0.8 MB). Loaded Objects now: 3933.
-Memory consumption went from 134.9 MB to 134.1 MB.
-Total: 5.951125 ms (FindLiveObjects: 0.451541 ms CreateObjectMapping: 0.541542 ms MarkObjects: 3.757042 ms  DeleteObjects: 1.200292 ms)
-
-Prepare: number of updated asset objects reloaded= 0
