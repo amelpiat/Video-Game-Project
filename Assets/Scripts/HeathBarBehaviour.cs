@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class HealthBarBehaviour : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class HealthBarBehaviour : MonoBehaviour
 
     public Image healthBar;
     public float healthAmount = 100f;
+
+    //test to see if collisions are being recognized 
+    public TMP_Text test;
 
     //values defined by the user 
     int damage;
@@ -42,6 +46,15 @@ public class HealthBarBehaviour : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "potion")
+        {
+            test.SetText("potion collected");
+            Destroy(gameObject); //This Destroys
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         //a collision with a gnome causes the player's health bar to decrement by 2 units 
@@ -50,8 +63,10 @@ public class HealthBarBehaviour : MonoBehaviour
 
         //picking up a health potion increments the player's health bar by 3 units 
 
-        if(collision.gameObject.tag == "healthPotion")
+        if(collision.gameObject.tag == "potion")
         {
+
+            test.SetText("potion picked up");
             if (healthAmount == 100f)
             {
                 //nothing happens 
@@ -69,7 +84,8 @@ public class HealthBarBehaviour : MonoBehaviour
             //decrement the health bar, then check the main player's health
             //if healthAmount is < or == 0, restart the level 
 
-            healthAmount -= 30f;
+            test.SetText("collision between main charater and gnome");
+            //healthAmount -= 30f;
             Destroy(collision.gameObject);
         }
     }
