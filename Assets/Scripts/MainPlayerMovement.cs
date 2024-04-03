@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainPlayerMovement : MonoBehaviour
 {
@@ -24,15 +23,6 @@ public class MainPlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "levelExit")
-        {
-            SceneManager.LoadScene(1);
-        }
-    }
-
 
     // Update is called once per frame
     void Update()
