@@ -2464,7 +2464,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       propertyPath: m_Name
-      value: Princess Variant
+      value: PrincessLevel2
       objectReference: {fileID: 0}
     - target: {fileID: 3310347538685268630, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2536,6 +2536,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1066188748}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372243338}
     - targetCorrespondingSourceObject: {fileID: 6530829976252657686, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1011560646}
@@ -5997,6 +6000,32 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 538096194}
   m_SourcePrefab: {fileID: 100100000, guid: edffbc9d9a9991241a2171db706070c9, type: 3}
+--- !u!1 &372243331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
+  m_PrefabInstance: {fileID: 155162953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &372243338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372243331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &374588084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29314,7 +29343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1280056767771472, guid: e53cd9b7f6ac44f3ebe9af3f0f302b4f, type: 3}
       propertyPath: m_TagString
-      value: princess
+      value: bluePotion
       objectReference: {fileID: 0}
     - target: {fileID: 4008155813552842, guid: e53cd9b7f6ac44f3ebe9af3f0f302b4f, type: 3}
       propertyPath: m_LocalPosition.x
