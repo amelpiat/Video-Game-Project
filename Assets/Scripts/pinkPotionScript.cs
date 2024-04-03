@@ -5,13 +5,9 @@ using UnityEngine;
 
 public class pinkPotionScript : MonoBehaviour
 {
-<<<<<<< HEAD
     public GameObject Princess;
     public Image healthBar; 
 
-=======
-    public GameObject PrincessVarient;
->>>>>>> 3b72bb0e6cc993f58eaadc5e07e3707aa63a3381
     // Start is called before the first frame update
     void Start()
     {
