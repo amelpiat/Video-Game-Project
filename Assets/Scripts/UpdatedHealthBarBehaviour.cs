@@ -77,7 +77,7 @@ public class UpdatedHealthBarBehaviour : MonoBehaviour
         }
 
         //code for collision with elf (second level)
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "ElfTag")
         {
             //if health bar is less than or equal to 10 percent, the game is over 
 
@@ -104,7 +104,7 @@ public class UpdatedHealthBarBehaviour : MonoBehaviour
         }
 
         //code for collision with dragon 
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "DragonTag")
         {
             if (healthBar.fillAmount <= 0.4f)
             {
