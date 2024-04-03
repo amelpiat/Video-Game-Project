@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
 
 public class pinkPotionScript : MonoBehaviour
 {
+<<<<<<< HEAD
     public GameObject Princess;
     public Image healthBar; 
 
+=======
+    public GameObject PrincessVarient;
+>>>>>>> 3b72bb0e6cc993f58eaadc5e07e3707aa63a3381
     // Start is called before the first frame update
     void Start()
     {
@@ -23,15 +26,8 @@ public class pinkPotionScript : MonoBehaviour
     {
         if (other.name == "Princess")
         {
-            if (healthBar.fillAmount == 1f)
-            {
-                Destroy(gameObject);
-            }
-            else
-            {
-                healthBar.fillAmount += 0.1f;
-                Destroy(gameObject);
-            }
+            //Add 1 to points.
+            Destroy(gameObject); //This Destroys
         }
     }
 }
