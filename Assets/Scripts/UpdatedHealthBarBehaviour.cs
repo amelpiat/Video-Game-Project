@@ -34,8 +34,9 @@ public class UpdatedHealthBarBehaviour : MonoBehaviour
         //code for collision with potion 
         if(collision.gameObject.tag == "potion")
         {
-            if(healthBar.fillAmount >= 1f)
+            if(healthBar.fillAmount == 1f)
             {
+                Destroy(collision.gameObject);
                 //nothing happens, health bar cannot increase anymore 
             }
         }
