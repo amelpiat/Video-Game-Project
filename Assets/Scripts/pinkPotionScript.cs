@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class pinkPotionScript : MonoBehaviour
 {
-    public GameObject Princess;
+    public GameObject PrincessVarient;
     // Start is called before the first frame update
     void Start()
     {
