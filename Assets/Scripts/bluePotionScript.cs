@@ -18,7 +18,7 @@ public class bluePotionScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "PrincessLevel2")
+        if (other.name == "Princess")
         {
             //Add 1 to points.
             Destroy(gameObject); //This Destroys
