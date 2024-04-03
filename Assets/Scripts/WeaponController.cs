@@ -35,7 +35,6 @@ public class WeaponController : MonoBehaviour
         StartCoroutine(ResetAttactBool());
         yield return new WaitForSeconds(AttackCooldown);
         CanAttack = true;
-
     }
 
     IEnumerator ResetAttactBool()
