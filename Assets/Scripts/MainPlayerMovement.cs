@@ -15,6 +15,8 @@ public class MainPlayerMovement : MonoBehaviour
     private Vector3 CurrentMoveVelocity;
     private Vector3 MoveDampVelocity;
 
+    
+
     private Vector3 CurrentForceVelocity;
 
     // Start is called before the first frame update
@@ -32,6 +34,8 @@ public class MainPlayerMovement : MonoBehaviour
             SceneManager.LoadScene(1);
         }
     }
+
+   
 
     // Update is called once per frame
     void Update()

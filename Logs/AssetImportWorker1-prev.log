@@ -29,6 +29,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 49934
 =======
 C:/Users/Amelia/Desktop/reclone/Project
@@ -37,6 +38,9 @@ Logs/AssetImportWorker1.log
 -srvPort
 61002
 >>>>>>> f0730e193dbc8d3edcc44053cbf28ca19537bd64
+=======
+51967
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 -job-worker-count
 4
 -background-job-worker-count
@@ -85,6 +89,7 @@ C:/Users/Amelia/Desktop/reclone/Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [4436936064] Host "[IP] 172.30.7.59 [Port] 0 [Flags] 2 [Guid] 3746591383 [EditorId] 3746591383 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-7-59.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 Player connection [4436936064] Host "[IP] 172.30.7.59 [Port] 0 [Flags] 2 [Guid] 3746591383 [EditorId] 3746591383 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-7-59.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
@@ -113,6 +118,14 @@ JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
 Refreshing native plugins compatible for Editor in 7.14 ms, found 3 plugins.
+=======
+Player connection [15004] Host "[IP] 172.30.81.5 [Port] 0 [Flags] 2 [Guid] 2563266780 [EditorId] 2563266780 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0EV7A4E8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15004] Host "[IP] 172.30.81.5 [Port] 0 [Flags] 2 [Guid] 2563266780 [EditorId] 2563266780 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0EV7A4E8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 7.17 ms, found 3 plugins.
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Resources/UnitySubsystems
@@ -131,8 +144,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 >>>>>>> f0730e193dbc8d3edcc44053cbf28ca19537bd64
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 Begin MonoManager ReloadAssembly
 icall.c:1842:
 icall.c:1842:
@@ -158,20 +175,32 @@ Domain Reload Profiling: 584ms
 	BeginReloadAssembly (101ms)
 =======
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.010840 seconds.
 - Loaded All Assemblies, in  1.585 seconds
+=======
+Registered in 0.009120 seconds.
+- Loaded All Assemblies, in  1.315 seconds
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.895 seconds
 Domain Reload Profiling: 2472ms
 	BeginReloadAssembly (589ms)
 >>>>>>> f0730e193dbc8d3edcc44053cbf28ca19537bd64
+=======
+- Finished resetting the current domain, in  1.624 seconds
+Domain Reload Profiling: 2936ms
+	BeginReloadAssembly (460ms)
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (30ms)
@@ -219,6 +248,30 @@ Domain Reload Profiling: 2472ms
 			ProcessInitializeOnLoadAttributes (496ms)
 			ProcessInitializeOnLoadMethodAttributes (120ms)
 >>>>>>> f0730e193dbc8d3edcc44053cbf28ca19537bd64
+=======
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (557ms)
+			TypeCache.Refresh (552ms)
+				TypeCache.ScanAssembly (506ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (1059ms)
+			ProcessInitializeOnLoadMethodAttributes (316ms)
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -227,6 +280,7 @@ Domain Reload Profiling: 2472ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 icall.c:1842:
 icall.c:1842:
@@ -3626,5 +3680,65 @@ Unloading 3541 unused Assets / (3.0 MB). Loaded Objects now: 4148.
 Memory consumption went from 230.3 MB to 227.3 MB.
 Total: 16.809500 ms (FindLiveObjects: 1.457000 ms CreateObjectMapping: 1.129300 ms MarkObjects: 10.378800 ms  DeleteObjects: 3.841000 ms)
 >>>>>>> f0730e193dbc8d3edcc44053cbf28ca19537bd64
+=======
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\simon\OneDrive\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\simon\OneDrive\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.566 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.915 seconds
+Domain Reload Profiling: 5475ms
+	BeginReloadAssembly (960ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1359ms)
+		LoadAssemblies (907ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (764ms)
+			TypeCache.Refresh (591ms)
+				TypeCache.ScanAssembly (533ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (2084ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3546 unused Assets / (2.6 MB). Loaded Objects now: 4141.
+Memory consumption went from 138.7 MB to 136.1 MB.
+Total: 16.039000 ms (FindLiveObjects: 1.353100 ms CreateObjectMapping: 0.949300 ms MarkObjects: 10.969800 ms  DeleteObjects: 2.765000 ms)
+>>>>>>> d6635d897aad9d8e7361aefd615099b77a541423
 
 Prepare: number of updated asset objects reloaded= 0

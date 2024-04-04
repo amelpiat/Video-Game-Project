@@ -16,9 +16,10 @@ public class OnKeyOpenDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "princess"&& gotKey == true)
+        if (other.tag == "princess")
         {
             Instruction.SetActive(false);
+
             AnimeObject.GetComponent<Animator>().Play("DoorOpen");
             Action = false;
 
