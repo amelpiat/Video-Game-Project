@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
+using UnityEditor.VersionControl;
 
 public class GnomeBehaviour : MonoBehaviour
 {
@@ -45,10 +47,21 @@ public class GnomeBehaviour : MonoBehaviour
 
                 Destroy(gameObject);
 
-                if(healthBar.fillAmount == 0f)
+                if(healthBar.fillAmount <= 0.2f)
                 {
                     restartMessage.SetText("Game over. Try again.");
-                    StartCoroutine(resetScene());
+
+                    StartCoroutine(clearText());
+
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+                    //StartCoroutine(resetScene());
+
+                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+                    //restartMessage.SetText("Try again.");
+
+                    //StartCoroutine();
                 }
             }
         }
@@ -56,8 +69,20 @@ public class GnomeBehaviour : MonoBehaviour
 
     IEnumerator resetScene()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
+
+        restartMessage.SetText("");
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    IEnumerator clearText()
+    {
+        yield return new WaitForSeconds(3);
+
+        restartMessage.SetText("");
+
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
+
