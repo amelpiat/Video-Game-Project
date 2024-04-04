@@ -63,7 +63,7 @@ public class GnomeBehaviour : MonoBehaviour
 
     IEnumerator clearText()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
 
         restartMessage.SetText("");
 

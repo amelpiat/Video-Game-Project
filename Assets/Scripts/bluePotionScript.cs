@@ -6,8 +6,7 @@ using UnityEngine;
 public class bluePotionScript : MonoBehaviour
 {
     public GameObject PrincessVarient;
-    public Image healthBar;
-    public AudioSource potionSound;
+    public Image healthBar; 
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +23,6 @@ public class bluePotionScript : MonoBehaviour
     {
         if (other.name == "PrincessLevel2")
         {
-            potionSound.Play();
             if(healthBar.fillAmount == 1f)
             {
                 Destroy(gameObject);
