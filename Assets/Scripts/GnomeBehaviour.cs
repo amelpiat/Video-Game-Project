@@ -34,7 +34,7 @@ public class GnomeBehaviour : MonoBehaviour
             {
                 //player dies and level restarts 
                 healthBar.fillAmount = 0f;
-                Destroy(gameObject);
+                //Destroy(gameObject);
 
                 restartMessage.SetText("Game over. Try again.");
 
@@ -47,7 +47,7 @@ public class GnomeBehaviour : MonoBehaviour
                 healthBar.fillAmount -= 0.2f;
                 healthBar.fillAmount = Mathf.Clamp01(healthBar.fillAmount);
 
-                Destroy(gameObject);
+                //Destroy(gameObject);
 
                 if (healthBar.fillAmount <= 0.01f)
                 {
