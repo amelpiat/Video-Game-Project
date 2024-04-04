@@ -21,7 +21,7 @@ public class pinkPotionScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Princess")
+        if (other.tag == "princess")
         {
             if (healthBar.fillAmount == 1f)
             {
