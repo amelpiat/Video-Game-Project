@@ -7,6 +7,7 @@ public class greenPotionScript : MonoBehaviour
 {
     public GameObject PrincessVarient;
     public Image healthBar;
+    public AudioSource potionSound;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class greenPotionScript : MonoBehaviour
     {
         if (other.name == "PrincessLevel3")
         {
+            potionSound.Play();
             if (healthBar.fillAmount == 1f)
             {
                 Destroy(gameObject);
