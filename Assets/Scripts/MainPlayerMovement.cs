@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainPlayerMovement : MonoBehaviour
 {
@@ -22,6 +23,14 @@ public class MainPlayerMovement : MonoBehaviour
         Controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "exilLevel1")
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     // Update is called once per frame

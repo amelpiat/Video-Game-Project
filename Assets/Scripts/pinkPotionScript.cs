@@ -23,15 +23,8 @@ public class pinkPotionScript : MonoBehaviour
     {
         if (other.name == "princess")
         {
-            if (healthBar.fillAmount == 1f)
-            {
-                Destroy(gameObject);
-            }
-            else
-            {
-                healthBar.fillAmount += 0.1f;
-                Destroy(gameObject);
-            }
+            //Add 1 to points.
+            Destroy(gameObject); //This Destroys
         }
     }
 }

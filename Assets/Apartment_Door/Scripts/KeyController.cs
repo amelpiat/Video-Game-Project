@@ -19,16 +19,17 @@ public class KeyController : MonoBehaviour
         keyCollider = GetComponent<BoxCollider>();
 
         keyCollider.isTrigger = true;
+        DC.gotKey = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.tag == "princess")
         {
-            DC.gotKey = true;
-            txtToDisplay.gameObject.SetActive(true);
-            txtToDisplay.text = "Key Acquired";
-            this.gameObject.SetActive(false);
-        }
+            Destroy(gameObject); //This Destroys
+            DC.gotKey = true; 
+            txtToDisplay.gameObject.SetActive(true);//This does not work atm
+            txtToDisplay.text = "Key Acquired"; //^
+        }   
     }
 }
