@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class bluePotionScript : MonoBehaviour
 {
     public GameObject PrincessVarient;
+    public Image healthBar; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +23,16 @@ public class bluePotionScript : MonoBehaviour
     {
         if (other.name == "PrincessLevel2")
         {
-            //Add 1 to points.
-            Destroy(gameObject); //This Destroys
+            if(healthBar.fillAmount == 1f)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                healthBar.fillAmount += 0.1f;
+                Destroy(gameObject);
+
+            }
         }
     }
 }

@@ -1,36 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
 
-public class pinkPotionScript : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
-    public GameObject Princess;
-    public Image healthBar;
+    public string enemyTag; 
+    public float enemyHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Princess")
+        if(other.CompareTag(enemyTag))
         {
-            if (healthBar.fillAmount == 1f)
-            {
-                Destroy(gameObject);
-            }
-            else
-            {
-                healthBar.fillAmount += 0.1f;
+            //each time the enemy is hit by a bullet, their health decrements by 1
+            enemyHealth--;
 
+            //if the enemy reaches no health, the enemy dies 
+            if (enemyHealth <= 0)
+            {
                 Destroy(gameObject);
             }
         }
