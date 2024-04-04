@@ -19,6 +19,7 @@ public class OnKeyOpenDoor : MonoBehaviour
         if (other.tag == "princess")
         {
             Instruction.SetActive(false);
+
             AnimeObject.GetComponent<Animator>().Play("DoorOpen");
             Action = false;
 
