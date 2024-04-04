@@ -8,7 +8,7 @@ using TMPro;
 public class BulletCollisionBehaviour : MonoBehaviour
 {
     public Image healthBar;
-    public float hitDamage;
+    float hitDamage = 0.1f;
 
     public TMP_Text message;
 

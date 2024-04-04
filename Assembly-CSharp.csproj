@@ -55,19 +55,18 @@
     <UnityVersion>2023.2.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\bluePotionPrefab\bluePotionSound.cs" />
     <Compile Include="Assets\Scripts\Level3GnomeBehaviour.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Gas Mask System V1.4\Additional Packages\FPSController\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Gas Mask System V1.4\Additional Packages\FPSController\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
->>>>>>> d97d44e06d10fc0e32cc116b6241a0b2d383dadc
     <Compile Include="Assets\Scripts\potionSound.cs" />
     <Compile Include="Assets\Scripts\UpdatedHealthBarBehaviour.cs" />
     <Compile Include="Assets\Scripts\TestScript.cs" />
@@ -83,7 +82,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Gas Mask System V1.4\Additional Packages\FPSController\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\bluePotionSound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Gas Mask System V1.4\Scripts\Managers - One Per Scene\GMController.cs" />
@@ -120,11 +118,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\BulletCollisionBehaviour.cs" />
-=======
     <Compile Include="Assets\Gas Mask System V1.4\Additional Packages\FPSController\CrossPlatformInput\Scripts\MobileControlRig.cs" />
->>>>>>> d97d44e06d10fc0e32cc116b6241a0b2d383dadc
+    <Compile Include="Assets\Scripts\BulletCollisionBehaviour.cs" />
     <Compile Include="Assets\Scripts\WeaponController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
