@@ -7,6 +7,7 @@ public class OnKeyOpenDoor : MonoBehaviour
     public GameObject Instruction;
     public GameObject AnimeObject;
     public bool Action = false;
+    bool gotKey;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +16,12 @@ public class OnKeyOpenDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "princess")
+        if (other.tag == "princess"&& gotKey == true)
         {
+            Instruction.SetActive(false);
+            AnimeObject.GetComponent<Animator>().Play("DoorOpen");
+            Action = false;
+
             Instruction.SetActive(true);
             Action = true;
         }
@@ -31,15 +36,20 @@ public class OnKeyOpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (Action == true)
-            {
-                Instruction.SetActive(false);
-                AnimeObject.GetComponent<Animator>().Play("DoorOpen");
-                Action = false;
-            }
-        }
+        
+
+
+
+
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    if (Action == true)
+        //    {
+        //        Instruction.SetActive(false);
+         //       AnimeObject.GetComponent<Animator>().Play("DoorOpen");
+        //        Action = false;
+         //   }
+       // }
     }
 
 }
