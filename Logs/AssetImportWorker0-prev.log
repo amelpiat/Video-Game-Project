@@ -9,7 +9,7 @@ Running under Rosetta:   YES
 Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
-2024-04-03 18:48:18.390 Unity[94563:3245589] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-04-03 19:05:28.955 Unity[95212:3264463] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59820
+60188
 -job-worker-count
 3
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/ellaharding/Documents/GitHub/Projec
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8709915200] Host "[IP] 172.30.75.224 [Port] 0 [Flags] 2 [Guid] 1297377272 [EditorId] 1297377272 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-75-224.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [8709915200] Host "[IP] 172.30.75.224 [Port] 0 [Flags] 2 [Guid] 1297377272 [EditorId] 1297377272 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-75-224.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8784835136] Host "[IP] 172.30.75.224 [Port] 0 [Flags] 2 [Guid] 1336774896 [EditorId] 1336774896 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-75-224.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8784835136] Host "[IP] 172.30.75.224 [Port] 0 [Flags] 2 [Guid] 1336774896 [EditorId] 1336774896 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-75-224.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -86,7 +86,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56563
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 icall.c:1842:
 icall.c:1842:
@@ -100,43 +100,43 @@ icall.c:1842:
 icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002394 seconds.
-- Loaded All Assemblies, in  0.659 seconds
+Registered in 0.000783 seconds.
+- Loaded All Assemblies, in  0.687 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 icall.c:1842:
 icall.c:1842:
-- Finished resetting the current domain, in  1.471 seconds
-Domain Reload Profiling: 2132ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  1.701 seconds
+Domain Reload Profiling: 2390ms
+	BeginReloadAssembly (257ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (216ms)
-		LoadAssemblies (228ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (256ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (188ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (184ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1473ms)
+	FinalizeReload (1703ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1318ms)
+		SetupLoadedEditorAssemblies (1535ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (19ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (22ms)
 			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (941ms)
-			ProcessInitializeOnLoadMethodAttributes (295ms)
+			ProcessInitializeOnLoadAttributes (1099ms)
+			ProcessInitializeOnLoadMethodAttributes (348ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -157,49 +157,647 @@ icall.c:1842:
 icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.513 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.735 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.597 seconds
-Domain Reload Profiling: 4112ms
-	BeginReloadAssembly (671ms)
+- Finished resetting the current domain, in  3.141 seconds
+Domain Reload Profiling: 4877ms
+	BeginReloadAssembly (761ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (47ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (777ms)
+		LoadAssemblies (651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (3143ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (2163ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3535 unused Assets / (2.0 MB). Loaded Objects now: 4113.
+Memory consumption went from 136.3 MB to 134.3 MB.
+Total: 8.040041 ms (FindLiveObjects: 1.161625 ms CreateObjectMapping: 0.335041 ms MarkObjects: 3.951750 ms  DeleteObjects: 2.590208 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 219771.759709 seconds.
+  path: Assets/Scripts/BowScript.cs
+  artifactKey: Guid(a225787cb4c0c4ceaa2daf2f66a87916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BowScript.cs using Guid(a225787cb4c0c4ceaa2daf2f66a87916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a52a138deec2078797767f4a2e5badfc') in 0.007786458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.404 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.865 seconds
+Domain Reload Profiling: 4273ms
+	BeginReloadAssembly (392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (860ms)
+		LoadAssemblies (762ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2867ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (1920ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3533 unused Assets / (2.3 MB). Loaded Objects now: 4115.
+Memory consumption went from 131.7 MB to 129.4 MB.
+Total: 6.467291 ms (FindLiveObjects: 0.378583 ms CreateObjectMapping: 0.281042 ms MarkObjects: 4.384583 ms  DeleteObjects: 1.421458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.324066 seconds.
+  path: Assets/Scripts/BowScript.cs
+  artifactKey: Guid(a225787cb4c0c4ceaa2daf2f66a87916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BowScript.cs using Guid(a225787cb4c0c4ceaa2daf2f66a87916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e203b153764ae09aa4bf0f27f36235e') in 0.003355583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 767.460444 seconds.
+  path: Assets/Prefabs/FireBall.prefab
+  artifactKey: Guid(2a63d0bc475a64e2eb1cdd253e7778d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FireBall.prefab using Guid(2a63d0bc475a64e2eb1cdd253e7778d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c44eec67ec2b242cc1d789996a56adb4') in 0.408331917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Prefabs/GoblinHunterMain Variant.prefab
+  artifactKey: Guid(7ca6a11317794401abe0241c592d9ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoblinHunterMain Variant.prefab using Guid(7ca6a11317794401abe0241c592d9ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '683e15314b9da8af364a4450152041cd') in 0.140396959 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 406
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Princess Variant.prefab
+  artifactKey: Guid(8d42aed6b96a94f609b20a25d2f27de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Princess Variant.prefab using Guid(8d42aed6b96a94f609b20a25d2f27de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f2928304faa7c7a5fb6f7f75fa4efe4') in 0.079838875 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 245
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.011005 seconds.
+  path: Assets/Prefabs/DebugBullet.prefab
+  artifactKey: Guid(f85a970276a2049b8b1d2b3980d57cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DebugBullet.prefab using Guid(f85a970276a2049b8b1d2b3980d57cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3ec7ebf3d9f4637ec3f7046e925ec95') in 0.03945525 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.758560 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e736c0d2fe75194318e5c522357e3301') in 0.528079125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v1/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(5c8e485f8c12d2d47b285aa7ba5902a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v1/Cube_DefaultMaterial_Albedo.png using Guid(5c8e485f8c12d2d47b285aa7ba5902a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '185a69d45108a734f98979632988de9d') in 0.012458125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L2/v1/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(174d7ad36d5446f45b4629d984965f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L2/v1/Cube_DefaultMaterial_Albedo.png using Guid(174d7ad36d5446f45b4629d984965f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c8b3a1280325ff86ce7cbf0cd938f17') in 0.00764025 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-2/L2/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(a9b0c57224a7e7a41b78c68d4dc5e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-2/L2/Cube_DefaultMaterial_Albedo.png using Guid(a9b0c57224a7e7a41b78c68d4dc5e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc4e74855f479739e8d3fa2d1a5db731') in 0.007334916 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L3/v2/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(90bfb2f2d72b12e4e80ed160021c0cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L3/v2/Cube_DefaultMaterial_Albedo.png using Guid(90bfb2f2d72b12e4e80ed160021c0cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44eeeb3e169faf857dc111ab14f3aaba') in 0.006805709 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v1/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(bd8d8bb70dd406d46b946a7333eadda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v1/Cube_DefaultMaterial_Albedo.png using Guid(bd8d8bb70dd406d46b946a7333eadda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e13fa5e44908b1792cd84a7dc8bbca3a') in 0.007615833 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-3/L2/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(e3382875f5e861341ad39eb292defbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-3/L2/Cube_DefaultMaterial_Albedo.png using Guid(e3382875f5e861341ad39eb292defbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef22ef6663ba38e35cb03fdf0ed60a5d') in 0.00700625 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-1/L3/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(390f54e83dfe7984b93e6e0d201469f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-1/L3/Cube_DefaultMaterial_Albedo.png using Guid(390f54e83dfe7984b93e6e0d201469f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c83d1e5caadb384f6499147f26106d9') in 0.007098125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v4/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(3f69061c55eeade46b3dde11acf6fda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v4/Cube_DefaultMaterial_Albedo.png using Guid(3f69061c55eeade46b3dde11acf6fda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '840c73cb9a945e26b90be77c4f127815') in 0.008809458 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v8/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(280ae61868419d747845c3112e97f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v8/Cube_DefaultMaterial_Albedo.png using Guid(280ae61868419d747845c3112e97f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a83a11ea080fc50588ee4108b07efd20') in 0.006897375 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v7/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(3d23d529db866a1438dbfa9653e74f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v7/Cube_DefaultMaterial_Albedo.png using Guid(3d23d529db866a1438dbfa9653e74f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931ff4c012fbd9c69783356eae0f601b') in 0.007028667 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/RandomMasonry/L1/v1/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(b716b63ab60d24a4cb56374fd574b5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/RandomMasonry/L1/v1/Cube_DefaultMaterial_Albedo.png using Guid(b716b63ab60d24a4cb56374fd574b5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288178c0e025754ade666b4dc99cd372') in 0.008067167 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v4/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(01c0b1ab41d7d374dabb68fb48a767e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v4/Cube_DefaultMaterial_Albedo.png using Guid(01c0b1ab41d7d374dabb68fb48a767e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60e97bf6bdb9dcca4a4ff4d6fda72784') in 0.006923667 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v3/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(9a60efe791a4aee4198c0a49e2325d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v3/Cube_DefaultMaterial_Albedo.png using Guid(9a60efe791a4aee4198c0a49e2325d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba4c6e0b920c1ac300bc7fd135ac090') in 0.007474917 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.338771 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-2/L1/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(f4274f6c6831e5240ac1b3e90f5db177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-2/L1/Cube_DefaultMaterial_Albedo.png using Guid(f4274f6c6831e5240ac1b3e90f5db177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe4146844b88365631d247d5b10d35fa') in 0.006683625 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-4/L3/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(4a015efd7cc1dc742986545d5478e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-4/L3/Cube_DefaultMaterial_Albedo.png using Guid(4a015efd7cc1dc742986545d5478e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3467cc5bf5122d03f75a6a7c214c5719') in 0.007178292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-2/L3/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(1f88fe2cf3e4ca248870726c9a3ee3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-2/L3/Cube_DefaultMaterial_Albedo.png using Guid(1f88fe2cf3e4ca248870726c9a3ee3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13267d740b0326a1b4eae613a156ae6e') in 0.007046375 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-3/L3/Cube_DefaultMaterial_Albedo.png
+  artifactKey: Guid(df7454256c7d41b499a2ee9ade81dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-3/L3/Cube_DefaultMaterial_Albedo.png using Guid(df7454256c7d41b499a2ee9ade81dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '648bb9e66a0412549f68bddfe4702c20') in 0.007951375 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.704629 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(69a12ab0727e8481da663b3c34f88198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(69a12ab0727e8481da663b3c34f88198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8541e5bd8ba6151e022df25e7ccac60c') in 0.00067325 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052580 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(6c445238758c34bfb9806fc0951940fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(6c445238758c34bfb9806fc0951940fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5980095fce3850247f7075cfd018279') in 0.012321166 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.667222 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(7956654ea4c214280b47d9548dbf706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(7956654ea4c214280b47d9548dbf706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7673e4d4171854332bc2cfd649bffdce') in 0.00941 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3526 unused Assets / (3.2 MB). Loaded Objects now: 4165.
+Memory consumption went from 135.4 MB to 132.2 MB.
+Total: 42.528417 ms (FindLiveObjects: 0.449916 ms CreateObjectMapping: 0.170500 ms MarkObjects: 39.745000 ms  DeleteObjects: 2.161042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 92.234044 seconds.
+  path: Assets/Scripts/ArrowScript.cs
+  artifactKey: Guid(079f9a19497f34b7b8e16c83b4e125d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrowScript.cs using Guid(079f9a19497f34b7b8e16c83b4e125d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6830cb39301cafe00369300d75ed2a8') in 0.000864084 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095268 seconds.
+  path: Assets/Scripts/PlayerLook.cs
+  artifactKey: Guid(992b1ffc456134710b2004579e8e5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerLook.cs using Guid(992b1ffc456134710b2004579e8e5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd792011ae4ca96224bfa7b5ee4975328') in 0.000546292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.448 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.785 seconds
+Domain Reload Profiling: 4237ms
+	BeginReloadAssembly (520ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (165ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (722ms)
+		LoadAssemblies (709ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2787ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2154ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (1922ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3534 unused Assets / (2.6 MB). Loaded Objects now: 4164.
+Memory consumption went from 142.4 MB to 139.8 MB.
+Total: 4.989334 ms (FindLiveObjects: 0.313375 ms CreateObjectMapping: 0.158833 ms MarkObjects: 3.447458 ms  DeleteObjects: 1.068792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.647749 seconds.
+  path: Assets/Scripts/ArrowScript.cs
+  artifactKey: Guid(079f9a19497f34b7b8e16c83b4e125d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrowScript.cs using Guid(079f9a19497f34b7b8e16c83b4e125d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39b0a96afb91af7b7834d2d0f77179bd') in 0.002514833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3526 unused Assets / (2.2 MB). Loaded Objects now: 4164.
+Memory consumption went from 136.7 MB to 134.5 MB.
+Total: 17.013000 ms (FindLiveObjects: 0.857625 ms CreateObjectMapping: 0.147750 ms MarkObjects: 14.454833 ms  DeleteObjects: 1.551125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 517.712573 seconds.
+  path: Assets/Scripts/ArrowScript.cs
+  artifactKey: Guid(079f9a19497f34b7b8e16c83b4e125d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrowScript.cs using Guid(079f9a19497f34b7b8e16c83b4e125d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c1a32e897b15e3188460942dbd16e62') in 0.012591125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3525 unused Assets / (2.6 MB). Loaded Objects now: 4163.
+Memory consumption went from 136.7 MB to 134.1 MB.
+Total: 4.832834 ms (FindLiveObjects: 0.305416 ms CreateObjectMapping: 0.150000 ms MarkObjects: 3.182458 ms  DeleteObjects: 1.194500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.206 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.605 seconds
+Domain Reload Profiling: 3814ms
+	BeginReloadAssembly (425ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (44ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
+		CreateAndSetChildDomain (102ms)
 	RebuildCommonClasses (52ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (665ms)
-		LoadAssemblies (546ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (638ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (248ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (172ms)
-			BuildScriptInfoCaches (43ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2599ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2018ms)
+		SetupLoadedEditorAssemblies (1963ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (1816ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (1748ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (25ms)
-Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3534 unused Assets / (3.1 MB). Loaded Objects now: 4112.
-Memory consumption went from 136.2 MB to 133.2 MB.
-Total: 6.293875 ms (FindLiveObjects: 0.535708 ms CreateObjectMapping: 0.157042 ms MarkObjects: 3.799584 ms  DeleteObjects: 1.800333 ms)
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3533 unused Assets / (2.2 MB). Loaded Objects now: 4163.
+Memory consumption went from 144.2 MB to 142.0 MB.
+Total: 5.299875 ms (FindLiveObjects: 0.304959 ms CreateObjectMapping: 0.153250 ms MarkObjects: 3.640333 ms  DeleteObjects: 1.200166 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3524 unused Assets / (2.5 MB). Loaded Objects now: 4162.
+Memory consumption went from 138.9 MB to 136.4 MB.
+Total: 5.525000 ms (FindLiveObjects: 0.347166 ms CreateObjectMapping: 0.176458 ms MarkObjects: 3.827292 ms  DeleteObjects: 1.173416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.243 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.527 seconds
+Domain Reload Profiling: 3774ms
+	BeginReloadAssembly (426ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1930ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (1697ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3532 unused Assets / (2.9 MB). Loaded Objects now: 4162.
+Memory consumption went from 148.1 MB to 145.1 MB.
+Total: 5.495958 ms (FindLiveObjects: 0.317291 ms CreateObjectMapping: 0.150000 ms MarkObjects: 3.596583 ms  DeleteObjects: 1.431292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
