@@ -5,6 +5,7 @@ using UnityEngine;
 public class pinkPotionScript : MonoBehaviour
 {
     public GameObject PrincessVarient;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class pinkPotionScript : MonoBehaviour
     {
         
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Princess")
