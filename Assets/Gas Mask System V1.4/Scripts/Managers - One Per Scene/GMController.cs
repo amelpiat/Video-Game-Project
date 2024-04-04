@@ -5,9 +5,11 @@ using UnityStandardAssets.Characters.FirstPerson;
 namespace GasMaskSystem
 {
     public class GMController : MonoBehaviour
+
     {
         public enum GasMaskState { GasMaskOn, GasMaskOffInSmoke, GasMaskOffOutOfSmoke }
         private GasMaskState _gasMaskState;
+        public GameObject PrincessVarient;
 
         [Header("Gas Mask Features")]
         [SerializeField] private bool hasGasMaskOnStart = false;
