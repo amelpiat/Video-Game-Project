@@ -4,6 +4,7 @@ namespace GasMaskSystem
 {
     public class GMItem : MonoBehaviour
     {
+        public GameObject PrincessVarient;
         private enum ItemType { None, GasMask, Filter }
         [SerializeField] private ItemType _itemType = ItemType.None;
 

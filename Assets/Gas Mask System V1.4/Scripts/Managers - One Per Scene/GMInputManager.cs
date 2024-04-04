@@ -4,6 +4,7 @@ namespace GasMaskSystem
 {
     public class GMInputManager : MonoBehaviour
     {
+        public GameObject PrincessVarient;
         [Header("Raycast Pickup Input")]
         public KeyCode interactKey;
 

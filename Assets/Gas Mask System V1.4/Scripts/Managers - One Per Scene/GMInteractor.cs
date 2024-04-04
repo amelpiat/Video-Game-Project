@@ -4,8 +4,9 @@ namespace GasMaskSystem
 {
     public class GMInteractor : MonoBehaviour
     {
-        [Space(5)][SerializeField] private int interactDistance = 5;
 
+        [Space(5)][SerializeField] private int interactDistance = 5;
+        public GameObject PrincessVarient;
         private GMItem raycastedObj;
         private Camera _camera;
 

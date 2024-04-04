@@ -6,6 +6,7 @@ namespace GasMaskSystem
 {
     public class GMAudioManager : MonoBehaviour
     {
+        public GameObject PrincessVarient;
         [Header("List of Sound Effect SO's")]
         [SerializeField] private Sound[] sounds = null;
 
