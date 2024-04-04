@@ -5,9 +5,6 @@ using TMPro;
 
 public class GunScript : MonoBehaviour
 {
-    //gun sound//
-    public AudioSource gunSound; 
-    
     //bullet 
     public GameObject bullet;
 
@@ -77,8 +74,6 @@ public class GunScript : MonoBehaviour
 
     private void Shoot()
     {
-        gunSound.Play();
-
         readyToShoot = false;
 
         //Find the exact hit position using a raycast
