@@ -23525,6 +23525,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5179573985876975445, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
+      propertyPath: WalkSpeed
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179573985876975445, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       propertyPath: JumpStrength
       value: 25
       objectReference: {fileID: 0}
@@ -23582,10 +23586,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1755267850}
+      addedObject: {fileID: 1755267849}
     - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1755267849}
+      addedObject: {fileID: 1755267850}
   m_SourcePrefab: {fileID: 100100000, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
 --- !u!4 &830129132 stripped
 Transform:
@@ -49221,20 +49225,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3310347538685268630, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
   m_PrefabInstance: {fileID: 830129131}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1755267849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830129133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81fa003fa4cc6db46a7258405ce0ad07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footStepsSound: {fileID: 1755267850}
---- !u!82 &1755267850
+--- !u!82 &1755267849
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -49331,6 +49322,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1755267850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830129133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fa003fa4cc6db46a7258405ce0ad07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepsSound: {fileID: 1755267849}
 --- !u!1 &1760310022
 GameObject:
   m_ObjectHideFlags: 0
@@ -51825,6 +51829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wc: {fileID: 1920612260}
   HitParticle: {fileID: 0}
+  enemyDeathSound: {fileID: 0}
 --- !u!1 &1874846906
 GameObject:
   m_ObjectHideFlags: 0
