@@ -1,37 +1,33 @@
-Unity Editor version:    2023.2.9f1 (0c9c2e1f4bef)
-Branch:                  2023.2/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 14.3 (Build 23D56)
-Darwin version:          23.3.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
-2024-04-03 19:05:28.963 Unity[95214:3264469] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+Built from '2023.2/staging' branch; Version is '2023.2.9f1 (0c9c2e1f4bef) revision 826414'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 8029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/ellaharding/Documents/GitHub/Project
+C:/Users/simon/OneDrive/Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60188
+<<<<<<< HEAD
+52167
+=======
+50616
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
 -job-worker-count
 3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: /Users/ellaharding/Documents/GitHub/Project
-/Users/ellaharding/Documents/GitHub/Project
+Successfully changed project path to: C:/Users/simon/OneDrive/Project
+C:/Users/simon/OneDrive/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,83 +62,139 @@ Successfully changed project path to: /Users/ellaharding/Documents/GitHub/Projec
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8701588032] Host "[IP] 172.30.75.224 [Port] 0 [Flags] 2 [Guid] 2894039022 [EditorId] 2894039022 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-75-224.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [8701588032] Host "[IP] 172.30.75.224 [Port] 0 [Flags] 2 [Guid] 2894039022 [EditorId] 2894039022 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-75-224.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+<<<<<<< HEAD
+Player connection [4404184448] Host "[IP] 172.30.7.1 [Port] 0 [Flags] 2 [Guid] 3008841916 [EditorId] 3008841916 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-7-1.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4404184448] Host "[IP] 172.30.7.1 [Port] 0 [Flags] 2 [Guid] 3008841916 [EditorId] 3008841916 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-7-1.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+[Physics::Module] Initialized MultithreadedJobDispatcher with 4 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+=======
+Player connection [12400] Host "[IP] 172.30.81.5 [Port] 0 [Flags] 2 [Guid] 2385465245 [EditorId] 2385465245 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0EV7A4E8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12400] Host "[IP] 172.30.81.5 [Port] 0 [Flags] 2 [Guid] 2385465245 [EditorId] 2385465245 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0EV7A4E8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/ellaharding/Documents/GitHub/Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/simon/OneDrive/Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5167
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56214
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56905
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
 Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
+<<<<<<< HEAD
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000830 seconds.
-- Loaded All Assemblies, in  0.698 seconds
+Registered in 0.001105 seconds.
+- Loaded All Assemblies, in  0.316 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 icall.c:1842:
 icall.c:1842:
-- Finished resetting the current domain, in  1.750 seconds
-Domain Reload Profiling: 2449ms
-	BeginReloadAssembly (263ms)
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 596ms
+	BeginReloadAssembly (107ms)
+=======
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008860 seconds.
+- Loaded All Assemblies, in  1.401 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  1.097 seconds
+Domain Reload Profiling: 2494ms
+	BeginReloadAssembly (430ms)
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (156ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (260ms)
+<<<<<<< HEAD
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (183ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (117ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1752ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (280ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1583ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (23ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (1130ms)
-			ProcessInitializeOnLoadMethodAttributes (360ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (662ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (656ms)
+			TypeCache.Refresh (652ms)
+				TypeCache.ScanAssembly (491ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1099ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (958ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (736ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 icall.c:1842:
 icall.c:1842:
 icall.c:1842:
@@ -155,57 +207,90 @@ icall.c:1842:
 icall.c:1842:
 icall.c:1842:
 icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.736 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/sharlize/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sharlize/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.271 seconds
-Domain Reload Profiling: 5010ms
-	BeginReloadAssembly (779ms)
+- Finished resetting the current domain, in  0.493 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (212ms)
+=======
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\simon\OneDrive\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\simon\OneDrive\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.388 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.428 seconds
+Domain Reload Profiling: 5810ms
+	BeginReloadAssembly (1012ms)
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (47ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (140ms)
-	LoadAllAssembliesAndSetupDomain (750ms)
-		LoadAssemblies (643ms)
+<<<<<<< HEAD
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (265ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (182ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (3273ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (493ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2544ms)
+		SetupLoadedEditorAssemblies (357ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (2262ms)
-			ProcessInitializeOnLoadMethodAttributes (176ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (39ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launching external process: /Applications/Unity/Hub/Editor/2023.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3535 unused Assets / (3.3 MB). Loaded Objects now: 4113.
-Memory consumption went from 136.2 MB to 132.9 MB.
-Total: 7.782625 ms (FindLiveObjects: 0.914917 ms CreateObjectMapping: 0.246500 ms MarkObjects: 4.034166 ms  DeleteObjects: 2.585250 ms)
+Unloading 3534 unused Assets / (2.8 MB). Loaded Objects now: 4112.
+Memory consumption went from 279.8 MB to 276.9 MB.
+Total: 5.245500 ms (FindLiveObjects: 0.515417 ms CreateObjectMapping: 0.096833 ms MarkObjects: 3.455250 ms  DeleteObjects: 1.177333 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 81707.966602 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9acc32ba2ac08345ff3b47d77ccd6a4d') in 0.003266333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+Thread 0x29b3ef000 may have been prematurely finalized
 icall.c:1842:
 icall.c:1842:
 icall.c:1842:
@@ -218,572 +303,102 @@ icall.c:1842:
 icall.c:1842:
 icall.c:1842:
 icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.419 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/sharlize/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sharlize/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.068 seconds
-Domain Reload Profiling: 4490ms
-	BeginReloadAssembly (416ms)
+- Finished resetting the current domain, in  0.488 seconds
+Domain Reload Profiling: 963ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (50ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (92ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (843ms)
-		LoadAssemblies (768ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (250ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (217ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (3070ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (488ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2344ms)
+		SetupLoadedEditorAssemblies (349ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (2055ms)
-			ProcessInitializeOnLoadMethodAttributes (192ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3533 unused Assets / (3.1 MB). Loaded Objects now: 4113.
-Memory consumption went from 131.0 MB to 128.0 MB.
-Total: 6.282250 ms (FindLiveObjects: 0.549791 ms CreateObjectMapping: 0.168000 ms MarkObjects: 3.987917 ms  DeleteObjects: 1.575291 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 220551.561179 seconds.
-  path: Assets/Prefabs/FIREbullet.prefab
-  artifactKey: Guid(a3d40764907204a56a66b7a8988aaa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FIREbullet.prefab using Guid(a3d40764907204a56a66b7a8988aaa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd49ece86f7cfe8672643dd9ee2df3ee5') in 0.479599791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Prefabs/PlayerView.prefab
-  artifactKey: Guid(4ac06c2cb3647b041aa2b3fbdc44d646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerView.prefab using Guid(4ac06c2cb3647b041aa2b3fbdc44d646) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb1cdf40a9ca506b20f56f4fdb3eff7') in 0.078986709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 225.884112 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e4c53593e188fbd8dd116ef112ced79') in 0.352387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v3/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(331999db3cbf0ce4fafac86927a3e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v3/Cube_DefaultMaterial_Albedo.png using Guid(331999db3cbf0ce4fafac86927a3e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe999e22445e3f53c61e39fdd7f22ac0') in 0.015198959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-1/L2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(f6bd760348fb3f64dbf5e20ed49110c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-1/L2/Cube_DefaultMaterial_Albedo.png using Guid(f6bd760348fb3f64dbf5e20ed49110c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4d90a596641ce013fedaa04d633f7ec') in 0.015626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L2/v3/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(f89c628586aff0d49b4bdf3789f00aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L2/v3/Cube_DefaultMaterial_Albedo.png using Guid(f89c628586aff0d49b4bdf3789f00aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdaebc7e51778ff3b865133e2ace30ad') in 0.012755833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v4/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(922cb8a13f3f22f44ba45eac9dcb4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v4/Cube_DefaultMaterial_Albedo.png using Guid(922cb8a13f3f22f44ba45eac9dcb4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfaacd5f166a6046906fc89cec88168e') in 0.009589458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v4/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(f5b9cdf0abd23054d90cf171867c7f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v4/Cube_DefaultMaterial_Albedo.png using Guid(f5b9cdf0abd23054d90cf171867c7f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '483205f113900a7234e659bdb8db5790') in 0.007437709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/CastBlocks/L3/v2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(f186a045f9079b344b59c149baa98376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/CastBlocks/L3/v2/Cube_DefaultMaterial_Albedo.png using Guid(f186a045f9079b344b59c149baa98376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31ce36238c22ae677fbd50c37c17b12f') in 0.006499167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(cd23701458909834a88275ad188a4bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v2/Cube_DefaultMaterial_Albedo.png using Guid(cd23701458909834a88275ad188a4bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c27512ec666c1bc6fd42124481a9178a') in 0.0069285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(926438bfd69b52549bb5e8fa070463b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v2/Cube_DefaultMaterial_Albedo.png using Guid(926438bfd69b52549bb5e8fa070463b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '649d682ed226ae62586b64f1b297f270') in 0.007239417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v9/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(f0a4b825a95c16a4d86945b3451ef04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v9/Cube_DefaultMaterial_Albedo.png using Guid(f0a4b825a95c16a4d86945b3451ef04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ca35a7fce8279b8dd647f6dfed79527') in 0.008911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(4bdf5aa9482fcf240ba62ffc87083dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v2/Cube_DefaultMaterial_Albedo.png using Guid(4bdf5aa9482fcf240ba62ffc87083dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b64d221658088623c315b7a76c47fe7') in 0.006876833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v10/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(3278e8a82cf4ce245b711c133473c4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v10/Cube_DefaultMaterial_Albedo.png using Guid(3278e8a82cf4ce245b711c133473c4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12d59d8fe93538e874fa73cc100fe08d') in 0.007131 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/SandStone/L3/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(3e5412c6713a4ce47840b762a9dfa879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/SandStone/L3/v1/Cube_DefaultMaterial_Albedo.png using Guid(3e5412c6713a4ce47840b762a9dfa879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8bf56e58bbb678312c5389d4f9a3296') in 0.012309833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v3/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(ec07a9aea8999b4469a9aa3ea679f456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v3/Cube_DefaultMaterial_Albedo.png using Guid(ec07a9aea8999b4469a9aa3ea679f456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80df3511f501db7bd081c769859a3489') in 0.006748708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v5/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(c0812d1d95292614f9f4656f1c636d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v5/Cube_DefaultMaterial_Albedo.png using Guid(c0812d1d95292614f9f4656f1c636d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0410f9049652e67c1195b25829141aec') in 0.007717666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L2/v2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(6581023562d52554b987640e62b91757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L2/v2/Cube_DefaultMaterial_Albedo.png using Guid(6581023562d52554b987640e62b91757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd7c22d9576fcdb87a3f3353ccce7208') in 0.007246917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v5/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(8220e0319f342944eae916f675a1ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old/v5/Cube_DefaultMaterial_Albedo.png using Guid(8220e0319f342944eae916f675a1ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4c01164d59c91705b2e12e8f15abf2') in 0.006812417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(86a411af7ffb62142bbca94bde173277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v1/Cube_DefaultMaterial_Albedo.png using Guid(86a411af7ffb62142bbca94bde173277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b61c75e2aeed822ac60ab87674dc917e') in 0.006907916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v3/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(6783055407f913544ba817b4b31a4c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v3/Cube_DefaultMaterial_Albedo.png using Guid(6783055407f913544ba817b4b31a4c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213d22657c4601255e17d522478d8d4e') in 0.00645175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/SandStone/L1/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(1f21bff08e772da4d8935804e9487f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/SandStone/L1/v1/Cube_DefaultMaterial_Albedo.png using Guid(1f21bff08e772da4d8935804e9487f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e265d9f218e90ff8e71fa2366a66549') in 0.007303792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L3/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(1e11e03b18955ca4eaf52f5c090d022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L3/v1/Cube_DefaultMaterial_Albedo.png using Guid(1e11e03b18955ca4eaf52f5c090d022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29edd2d3c289dca668be8fc0e9e9ad51') in 0.012184833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v6/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(961fac0b7274a6a4980e6cc38d79f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-Old-Mossy/v6/Cube_DefaultMaterial_Albedo.png using Guid(961fac0b7274a6a4980e6cc38d79f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84a8bf273653466f283840b91d004cd7') in 0.007732916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v5/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(52634fb0d5b07ab43a833012b472db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v5/Cube_DefaultMaterial_Albedo.png using Guid(52634fb0d5b07ab43a833012b472db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0711a0444df4eaa8fe486e39470b8c7') in 0.006494667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/SandStone/L2/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(69815a3c625b8bc40a651a41b19f09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/SandStone/L2/v1/Cube_DefaultMaterial_Albedo.png using Guid(69815a3c625b8bc40a651a41b19f09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '459f374ed47729487a503aa028c23ca0') in 0.007213208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Mudstone/L3/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(568f1d9bfdbe59649b60f5e8746a6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Mudstone/L3/v1/Cube_DefaultMaterial_Albedo.png using Guid(568f1d9bfdbe59649b60f5e8746a6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a71d3404dcf909eb53d4411a7017fcd') in 0.00677725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v5/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(1ff853abfa6683e4882120a49c4c2a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v5/Cube_DefaultMaterial_Albedo.png using Guid(1ff853abfa6683e4882120a49c4c2a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a8d5648269508ca68d4d791879ad71') in 0.008229791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(d4c320d951fbbbe48a4cbc5ad51c21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Default/Block-New/v2/Cube_DefaultMaterial_Albedo.png using Guid(d4c320d951fbbbe48a4cbc5ad51c21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5af9b415b7fdd35a1abbd769b864610b') in 0.006776334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/CastBlocks/L3/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(ba104f41d20459e469ba98754d57de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/CastBlocks/L3/v1/Cube_DefaultMaterial_Albedo.png using Guid(ba104f41d20459e469ba98754d57de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2f646df676a1e3034942d44b7731da9') in 0.007283916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-1/L1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(c1fe33e29f670e1468d0a7562bcc4eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-1/L1/Cube_DefaultMaterial_Albedo.png using Guid(c1fe33e29f670e1468d0a7562bcc4eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7856b963f69b7cf1bf81cc8a3cf7fd78') in 0.00694075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Mudstone/L2/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(ed1f3accd506de84aa9775fe799b99c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Mudstone/L2/v1/Cube_DefaultMaterial_Albedo.png using Guid(ed1f3accd506de84aa9775fe799b99c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0091aea67beaaa2a6f057deb08e35686') in 0.006454875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.345455 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-3/L1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(d78215e805d43c847874cc104f797de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-3/L1/Cube_DefaultMaterial_Albedo.png using Guid(d78215e805d43c847874cc104f797de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06c0d2fe291531ce8447cd9b1133911e') in 0.006473834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-4/L1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(d98dc5e00fe06d04c9de21d2b4da696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-4/L1/Cube_DefaultMaterial_Albedo.png using Guid(d98dc5e00fe06d04c9de21d2b4da696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed4d8ab75a303c675bae9208a85d0ff7') in 0.007556459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-4/L2/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(2ba26b41f1c5d0648b49204227983d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Dungeon-4/L2/Cube_DefaultMaterial_Albedo.png using Guid(2ba26b41f1c5d0648b49204227983d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4948e5d11eba526f0e694b9bb662575') in 0.006582666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Mudstone/L1/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(3a00466a9e904094992f18e38352e3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/Mudstone/L1/v1/Cube_DefaultMaterial_Albedo.png using Guid(3a00466a9e904094992f18e38352e3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b93ffd558a40225e6846ad5ed48626f') in 0.00794075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v1/Cube_DefaultMaterial_Albedo.png
-  artifactKey: Guid(2819588cf96635e4b83b49976eac4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/levelONE/LB3D/RandomBlocks/Textures/Blocks/ManyVertical/L1/v1/Cube_DefaultMaterial_Albedo.png using Guid(2819588cf96635e4b83b49976eac4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '351f3e5336084d5126291353aa8643fa') in 0.007047417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3526 unused Assets / (2.0 MB). Loaded Objects now: 4163.
-Memory consumption went from 124.9 MB to 122.8 MB.
-Total: 41.805709 ms (FindLiveObjects: 0.428625 ms CreateObjectMapping: 0.195666 ms MarkObjects: 39.622125 ms  DeleteObjects: 1.558250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.451 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.899 seconds
-Domain Reload Profiling: 4354ms
-	BeginReloadAssembly (546ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (63ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (164ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (745ms)
-		LoadAssemblies (728ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (191ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2901ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2209ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (1977ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3534 unused Assets / (2.6 MB). Loaded Objects now: 4162.
-Memory consumption went from 132.0 MB to 129.4 MB.
-Total: 5.454167 ms (FindLiveObjects: 0.316500 ms CreateObjectMapping: 0.196334 ms MarkObjects: 3.644250 ms  DeleteObjects: 1.296416 ms)
+Unloading 3532 unused Assets / (2.5 MB). Loaded Objects now: 4114.
+Memory consumption went from 266.3 MB to 263.8 MB.
+Total: 4.593875 ms (FindLiveObjects: 0.225625 ms CreateObjectMapping: 0.090083 ms MarkObjects: 3.477750 ms  DeleteObjects: 0.799542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3526 unused Assets / (2.0 MB). Loaded Objects now: 4162.
-Memory consumption went from 126.6 MB to 124.6 MB.
-Total: 16.963833 ms (FindLiveObjects: 0.832208 ms CreateObjectMapping: 0.156292 ms MarkObjects: 14.712500 ms  DeleteObjects: 1.261750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3525 unused Assets / (2.5 MB). Loaded Objects now: 4161.
-Memory consumption went from 126.6 MB to 124.1 MB.
-Total: 4.866666 ms (FindLiveObjects: 0.297375 ms CreateObjectMapping: 0.144125 ms MarkObjects: 3.306750 ms  DeleteObjects: 1.117459 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.227 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.795 seconds
-Domain Reload Profiling: 4026ms
-	BeginReloadAssembly (438ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (47ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (100ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (642ms)
-		LoadAssemblies (633ms)
+=======
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (2082ms)
+		LoadAssemblies (887ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (172ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2797ms)
+		AnalyzeDomain (1510ms)
+			TypeCache.Refresh (1403ms)
+				TypeCache.ScanAssembly (1362ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2429ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2129ms)
+		SetupLoadedEditorAssemblies (1855ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (1886ms)
-			ProcessInitializeOnLoadMethodAttributes (149ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3533 unused Assets / (2.7 MB). Loaded Objects now: 4161.
-Memory consumption went from 134.0 MB to 131.3 MB.
-Total: 5.262375 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.148417 ms MarkObjects: 3.625000 ms  DeleteObjects: 1.186541 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3524 unused Assets / (2.4 MB). Loaded Objects now: 4160.
-Memory consumption went from 128.5 MB to 126.1 MB.
-Total: 5.285792 ms (FindLiveObjects: 0.333833 ms CreateObjectMapping: 0.154167 ms MarkObjects: 3.684167 ms  DeleteObjects: 1.112333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/ellaharding/Documents/GitHub/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.254 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.727 seconds
-Domain Reload Profiling: 3984ms
-	BeginReloadAssembly (431ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (44ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (113ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (638ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (172ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2728ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2096ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (1859ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (1626ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3532 unused Assets / (2.6 MB). Loaded Objects now: 4160.
-Memory consumption went from 137.8 MB to 135.2 MB.
-Total: 4.940584 ms (FindLiveObjects: 0.326958 ms CreateObjectMapping: 0.158917 ms MarkObjects: 3.400292 ms  DeleteObjects: 1.053500 ms)
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3534 unused Assets / (3.0 MB). Loaded Objects now: 4127.
+Memory consumption went from 138.3 MB to 135.3 MB.
+Total: 12.184300 ms (FindLiveObjects: 0.638500 ms CreateObjectMapping: 0.751500 ms MarkObjects: 8.306800 ms  DeleteObjects: 2.485600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17007.584866 seconds.
+  path: Assets/Apartment_Door/Models
+  artifactKey: Guid(f32d261b977154c3d837af0e3898cc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Models using Guid(f32d261b977154c3d837af0e3898cc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395ab4ed4dff9452cfd343618ee28c74') in 0.0149617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Apartment_Door/Models/SimpleDoor.fbx
+  artifactKey: Guid(f054e366653a7c14186595569de398f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Models/SimpleDoor.fbx using Guid(f054e366653a7c14186595569de398f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09a05d1e7a580ed0b22e454345a276c5') in 0.3590151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+>>>>>>> adccf7294b68e1d35c73fa6d4d587ebf46ad7978
