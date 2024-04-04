@@ -513,13 +513,13 @@ MonoBehaviour:
   timer: 2
   enemyBullet: {fileID: 954703315}
   spawnPoint: {fileID: 669525121}
-  enemySpeed: 200
+  enemySpeed: 1000
 --- !u!4 &24037746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9070797820358749291, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
   m_PrefabInstance: {fileID: 5297370378304275481}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &24037750
+--- !u!114 &24037747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -528,11 +528,69 @@ MonoBehaviour:
   m_GameObject: {fileID: 24037739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c29fd960a7b649b4c9ccd28aa70fd8a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 931d3048e8b6245079baaee1df67fb27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 564185182}
-  restartMessage: {fileID: 1882503938}
+  enemy: {fileID: 24037741}
+  player: {fileID: 372243344}
+--- !u!114 &24037751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24037739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 655e6669f7dc7458c8c415abe7d13965, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!54 &24037752
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24037739}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &24754357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -639,81 +697,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.054157, y: 12.115455, z: 7.74731}
   m_Center: {x: 0.47778115, y: 0.34465146, z: 0.48142028}
---- !u!1 &37044935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 37044936}
-  - component: {fileID: 37044938}
-  - component: {fileID: 37044937}
-  m_Layer: 5
-  m_Name: RedBackground
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &37044936
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37044935}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 173077979}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.42419434, y: -163.8867}
-  m_SizeDelta: {x: 350.6688, y: 25.456}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &37044937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37044935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.33962262, b: 0.33962262, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &37044938
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37044935}
-  m_CullTransparentMesh: 1
 --- !u!1 &39050228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 196262, guid: d02a52f9bab83eb489c605dfebaf95ce, type: 3}
@@ -1209,10 +1192,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (21)
@@ -1260,8 +1239,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 67867627}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &67867622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 67867621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &67867627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67867622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &71393455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1332,9 +1332,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
+      propertyPath: PrincessVarient
       value: 
-      objectReference: {fileID: 564185182}
+      objectReference: {fileID: 372243331}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (10)
@@ -1382,8 +1382,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 72975383}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &72975378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 72975377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &72975383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72975378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &73331686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2541,6 +2562,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 150cb4b70a28e9f4bb38aeb7fdbca262, type: 3}
+--- !u!1 &134954839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134954841}
+  - component: {fileID: 134954840}
+  m_Layer: 0
+  m_Name: SwordSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &134954840
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134954839}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
+  m_Resource: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &134954841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134954839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.316692, y: 12.603262, z: 378.75107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &136046802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2890,10 +3040,13 @@ PrefabInstance:
       addedObject: {fileID: 372243345}
     - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 372243346}
+    - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 372243347}
     - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 372243346}
+      addedObject: {fileID: 372243353}
     - targetCorrespondingSourceObject: {fileID: 6530829976252657686, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1011560646}
@@ -2911,10 +3064,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (24)
@@ -2962,8 +3111,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 155228363}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &155228358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 155228357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &155228363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155228358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &155320038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3037,10 +3207,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (6)
@@ -3088,8 +3254,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 156060295}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &156060290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 156060289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &156060295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156060290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1 &158444519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 111732, guid: 166fa84394171cf419c82289de2f2fc2, type: 3}
@@ -3367,41 +3554,9 @@ PrefabInstance:
       propertyPath: level
       value: Level 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3925361183848755120, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      propertyPath: m_Name
-      value: ResetText
-      objectReference: {fileID: 0}
-    - target: {fileID: 5356617964001949682, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      propertyPath: message
-      value: Defeat the elf and collect the key to complete this level.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7603729707720228413, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7603729707720228413, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 7603729707720228413, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3137918615531123523, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-    - {fileID: 6825856716517396572, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-    - {fileID: 2027805552057554083, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 65926494621126020, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 744371957}
-    - targetCorrespondingSourceObject: {fileID: 65926494621126020, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 37044936}
-    - targetCorrespondingSourceObject: {fileID: 65926494621126020, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 564185181}
     - targetCorrespondingSourceObject: {fileID: 65926494621126020, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
       insertIndex: -1
       addedObject: {fileID: 922391240}
@@ -4090,10 +4245,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (25)
@@ -4141,8 +4292,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 232931335}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &232931330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 232931329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &232931335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232931330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &235058886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4355,7 +4527,6 @@ GameObject:
   m_Component:
   - component: {fileID: 246795088}
   - component: {fileID: 246795087}
-  - component: {fileID: 246795089}
   m_Layer: 0
   m_Name: DoorV6
   m_TagString: Untagged
@@ -4402,27 +4573,6 @@ Transform:
   - {fileID: 1845702326}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -72.918, z: 0}
---- !u!65 &246795089
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246795086}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &253115083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4431,10 +4581,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (4)
@@ -4482,8 +4628,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 253115089}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &253115084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 253115083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &253115089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253115084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &254567331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4492,10 +4659,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (12)
@@ -4543,8 +4706,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 254567337}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &254567332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 254567331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &254567337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254567332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &269303273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6899,20 +7083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c22db760aaf3a5478015a7552934835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &372243346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372243331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81fa003fa4cc6db46a7258405ce0ad07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footStepsSound: {fileID: 372243347}
---- !u!82 &372243347
+--- !u!82 &372243346
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7009,6 +7180,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &372243347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372243331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fa003fa4cc6db46a7258405ce0ad07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepsSound: {fileID: 372243346}
+--- !u!114 &372243353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372243331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0dbdc328aaf2b44fab23cc74f287827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &374588084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7782,10 +7979,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (17)
@@ -7833,8 +8026,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 413372877}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &413372872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 413372871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &413372877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413372872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &414667294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9089,10 +9303,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (11)
@@ -9140,8 +9350,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 515680809}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &515680804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 515680803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &515680809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515680804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &517853864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9568,10 +9799,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (23)
@@ -9619,8 +9846,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 551690039}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &551690034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 551690033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &551690039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551690034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &556624352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9754,81 +10002,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1754044149}
   m_SourcePrefab: {fileID: 100100000, guid: d02a52f9bab83eb489c605dfebaf95ce, type: 3}
---- !u!1 &564185180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 564185181}
-  - component: {fileID: 564185183}
-  - component: {fileID: 564185182}
-  m_Layer: 5
-  m_Name: HealthBarControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &564185181
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564185180}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 173077979}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -163}
-  m_SizeDelta: {x: 395.5651, y: 43.9989}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &564185182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564185180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb876db9f66f9b641a24e57c311b6942, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &564185183
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564185180}
-  m_CullTransparentMesh: 1
 --- !u!1001 &565799865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11530,7 +11703,7 @@ Transform:
   m_GameObject: {fileID: 669525120}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.44, z: 0.05}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2305843, y: 0.2305843, z: -0.19441783}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12166,10 +12339,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (16)
@@ -12217,8 +12386,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 707594277}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &707594272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 707594271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &707594277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707594272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1 &723980811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 128432, guid: 6c79e13c739a75b49b2ebfbf280c68e7, type: 3}
@@ -12776,81 +12966,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d88a0a8be53f244b88192f9c7ba255b, type: 3}
---- !u!1 &744371956
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 744371957}
-  - component: {fileID: 744371959}
-  - component: {fileID: 744371958}
-  m_Layer: 5
-  m_Name: Border
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &744371957
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744371956}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 173077979}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -164.52}
-  m_SizeDelta: {x: 367.1314, y: 40.9527}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &744371958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744371956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &744371959
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744371956}
-  m_CullTransparentMesh: 1
 --- !u!1001 &745684964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13422,10 +13537,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (3)
@@ -13473,8 +13584,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 804771259}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &804771254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 804771253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &804771259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804771254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &805997960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13609,10 +13741,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (22)
@@ -13660,8 +13788,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810656999}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &810656994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 810656993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &810656999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810656994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &810839373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15419,6 +15568,24 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41693566e2f5ca40802984f734f458f, type: 3}
+--- !u!1 &888232661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1610066855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &888232665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888232661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &889555842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17337,10 +17504,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (8)
@@ -17388,8 +17551,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 980053893}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &980053888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 980053887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &980053893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980053888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &980371537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18534,7 +18718,7 @@ MonoBehaviour:
   CanAttack: 1
   AttackCooldown: 0.5
   isAttacking: 0
-  swordSound: {fileID: 0}
+  swordSound: {fileID: 134954840}
 --- !u!1001 &1066747325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18924,10 +19108,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (18)
@@ -18975,8 +19155,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1081063066}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1081063061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1081063060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1081063066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081063061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &1094663569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19127,10 +19328,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (7)
@@ -19178,8 +19375,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1107044265}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1107044260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1107044259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1107044265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107044260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &1113943641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20975,10 +21193,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (14)
@@ -21026,8 +21240,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1235909293}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1235909288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1235909287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1235909293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235909288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &1242929928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22303,10 +22538,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (2)
@@ -22354,8 +22585,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1284348814}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1284348809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1284348808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1284348814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284348809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1 &1293312691 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 196262, guid: d02a52f9bab83eb489c605dfebaf95ce, type: 3}
@@ -22693,10 +22945,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (13)
@@ -22744,8 +22992,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1300490242}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1300490237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1300490236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1300490242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300490237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &1301280362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22754,10 +23023,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (20)
@@ -22805,8 +23070,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1301280368}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1301280363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1301280362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1301280368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301280363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1 &1301703375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100840, guid: edffbc9d9a9991241a2171db706070c9, type: 3}
@@ -24678,121 +24964,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41693566e2f5ca40802984f734f458f, type: 3}
---- !u!1001 &1396555503
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_Name
-      value: key_gold
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.51182365
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5118238
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5118238
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 39.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.9045
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 365.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.82469654
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.56557554
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1396555506}
-    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1396555505}
-  m_SourcePrefab: {fileID: 100100000, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
---- !u!1 &1396555504 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
-  m_PrefabInstance: {fileID: 1396555503}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1396555505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396555504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f54e6ae734794f240bb8c708d7edbdc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txtToDisplay: {fileID: 0}
-  DC: {fileID: 0}
---- !u!65 &1396555506
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396555504}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1404729852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100840, guid: edffbc9d9a9991241a2171db706070c9, type: 3}
@@ -25850,10 +26021,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (9)
@@ -25901,8 +26068,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1446461287}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1446461282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1446461281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1446461287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446461282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1 &1448985207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 128432, guid: 6c79e13c739a75b49b2ebfbf280c68e7, type: 3}
@@ -28004,6 +28192,135 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 84.16455, y: 8.300388, z: 76.97055}
   m_Center: {x: 5.0709305, y: 2.708217, z: 0.17968954}
+--- !u!1 &1570633643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570633645}
+  - component: {fileID: 1570633644}
+  m_Layer: 0
+  m_Name: EnemyDeathSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1570633644
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570633643}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 566d2ea6240b489479a6e9fd608c2621, type: 3}
+  m_Resource: {fileID: 8300000, guid: 566d2ea6240b489479a6e9fd608c2621, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1570633645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570633643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.316692, y: 12.603262, z: 378.75107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1571622938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28789,10 +29106,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (1)
@@ -28840,7 +29153,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 888232665}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
 --- !u!1001 &1621053107
 PrefabInstance:
@@ -29094,10 +29410,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant
@@ -29145,8 +29457,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1627984630}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1627984625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1627984624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1627984630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627984625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &1629289235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30352,10 +30685,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (5)
@@ -30403,8 +30732,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1726918916}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &1726918911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 1726918910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1726918916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726918911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &1729914663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33651,17 +34001,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22285211884fa0f4fac1852a8719b9d2, type: 3}
---- !u!114 &1882503938 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7603729707720228413, guid: 4ac06c2cb3647b041aa2b3fbdc44d646, type: 3}
-  m_PrefabInstance: {fileID: 173077978}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1883809539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34184,6 +34523,135 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1323347216}
   m_SourcePrefab: {fileID: 100100000, guid: d02a52f9bab83eb489c605dfebaf95ce, type: 3}
+--- !u!1 &1911759264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1911759266}
+  - component: {fileID: 1911759265}
+  m_Layer: 0
+  m_Name: PotionSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1911759265
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911759264}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6cf9c85b5a3b88c468b21b9d21250adf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6cf9c85b5a3b88c468b21b9d21250adf, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1911759266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911759264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.316692, y: 12.603262, z: 378.75107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917252389 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 196262, guid: d02a52f9bab83eb489c605dfebaf95ce, type: 3}
@@ -34783,10 +35251,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (15)
@@ -34834,7 +35298,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1951181234}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
 --- !u!1001 &1955549705
 PrefabInstance:
@@ -36898,10 +37365,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B Variant (19)
@@ -36949,8 +37412,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2099536771}
   m_SourcePrefab: {fileID: 100100000, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+--- !u!1 &2099536766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
+  m_PrefabInstance: {fileID: 2099536765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2099536771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099536766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5390c9a335a1468ad9dd1c2bb62fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound2: {fileID: 1911759265}
 --- !u!1001 &2100469548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37749,10 +38233,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 564185182}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989, type: 3}
       propertyPath: m_Name
       value: GPVFX_POTION B
@@ -37877,11 +38357,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 939001936176046756, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 939001936176046756, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
-      propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070797820348859359, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9070797820358389837, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
       propertyPath: m_Name
@@ -37889,11 +38369,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9070797820358749291, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.67
+      value: 59.68
       objectReference: {fileID: 0}
     - target: {fileID: 9070797820358749291, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 157.95
+      value: 157.48
       objectReference: {fileID: 0}
     - target: {fileID: 9070797820358749291, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37959,7 +38439,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -269.736
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4748905306848971585, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9070797820358749291, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
@@ -37977,7 +38458,13 @@ PrefabInstance:
       addedObject: {fileID: 24037741}
     - targetCorrespondingSourceObject: {fileID: 9070797820358389837, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 24037750}
+      addedObject: {fileID: 24037747}
+    - targetCorrespondingSourceObject: {fileID: 9070797820358389837, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24037751}
+    - targetCorrespondingSourceObject: {fileID: 9070797820358389837, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 24037752}
   m_SourcePrefab: {fileID: 100100000, guid: 7ca6a11317794401abe0241c592d9ae0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -38461,7 +38948,6 @@ SceneRoots:
   - {fileID: 1320831209}
   - {fileID: 800609357}
   - {fileID: 5297370378304275481}
-  - {fileID: 155162953}
   - {fileID: 1491854221}
   - {fileID: 173077978}
   - {fileID: 113294200}
@@ -38494,7 +38980,10 @@ SceneRoots:
   - {fileID: 551690033}
   - {fileID: 155228357}
   - {fileID: 232931329}
-  - {fileID: 1396555503}
+  - {fileID: 155162953}
   - {fileID: 246795088}
   - {fileID: 1278132082}
   - {fileID: 596858914}
+  - {fileID: 1911759266}
+  - {fileID: 134954841}
+  - {fileID: 1570633645}
