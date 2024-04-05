@@ -31,7 +31,7 @@ public class ArrowBehaviour : MonoBehaviour
         if (other.CompareTag("arrow"))
         {
             healthBar.fillAmount -= 0.3f;
-            Destroy(gameObject);
+            Destroy(other.gameObject);
 
             if(healthBar.fillAmount <= 0.01f)
             {

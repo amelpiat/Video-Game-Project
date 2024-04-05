@@ -7,7 +7,7 @@ public class bluePotionScript : MonoBehaviour
 {
     public GameObject PrincessVarient;
     public Image healthBar;
-    public AudioSource potionSound;
+    //public AudioSource potionSound;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +22,9 @@ public class bluePotionScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "PrincessLevel2")
+        if (other.CompareTag("princess"))
         {
-            potionSound.Play();
+            //potionSound.Play();
             if(healthBar.fillAmount == 1f)
             {
                 Destroy(gameObject);

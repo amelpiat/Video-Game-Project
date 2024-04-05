@@ -3574,6 +3574,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerView
       objectReference: {fileID: 0}
+    - target: {fileID: 3112257637886698740, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112257637886698740, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112257637886698740, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3536221780601374158, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
         type: 3}
       propertyPath: level
@@ -19083,7 +19098,6 @@ MonoBehaviour:
   CanAttack: 1
   AttackCooldown: 0.5
   isAttacking: 0
-  swordSound: {fileID: 134954840}
 --- !u!1001 &1066747325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38273,7 +38287,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
