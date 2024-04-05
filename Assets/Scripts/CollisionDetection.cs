@@ -15,17 +15,17 @@ public class CollisionDetection : MonoBehaviour
         if (other.tag == "Enemy" && wc.isAttacking)
         {
             count++;
-            enemyDeathSound.Play();
+            //enemyDeathSound.Play();
             Debug.Log(other.name);
             other.GetComponent<Animator>().SetTrigger("Hit");
-
+            print("count"+ count);
 
             if (count >= 3)
             {
+                count = 0;
                 Destroy(other.gameObject);
             }
-            //Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
-            //Destroy(other.gameObject);
+           
         }
     }
 }

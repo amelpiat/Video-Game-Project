@@ -29,7 +29,7 @@ public class pinkPotionScript : MonoBehaviour
             }
             else
             {
-                healthBar.fillAmount += 0.1f;
+                healthBar.fillAmount += 0.2f;
 
                 Destroy(gameObject);
             }
