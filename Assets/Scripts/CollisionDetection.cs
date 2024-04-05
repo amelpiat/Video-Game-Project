@@ -20,8 +20,9 @@ public class CollisionDetection : MonoBehaviour
             other.GetComponent<Animator>().SetTrigger("Hit");
 
 
-            if (count >= 3)
+            if (count >= 2)
             {
+                count = 0;
                 Destroy(other.gameObject);
             }
             //Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
