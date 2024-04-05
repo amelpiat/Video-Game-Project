@@ -11,7 +11,7 @@ public class OnKeyOpenDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Action = false;
     }
 
     void OnTriggerEnter(Collider other)
