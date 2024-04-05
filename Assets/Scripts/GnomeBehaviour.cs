@@ -28,7 +28,7 @@ public class GnomeBehaviour : MonoBehaviour
     {
         //gnomes decrease princess health by 2 points 
 
-        if (other.name == "princess")
+        if (other.name == "Princess")
         {
             if (healthBar.fillAmount <= 0.2f)
             {

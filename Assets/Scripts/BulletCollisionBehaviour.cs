@@ -8,8 +8,8 @@ using TMPro;
 public class BulletCollisionBehaviour : MonoBehaviour
 {
     public Image healthBar;
-    float hitDamage = 0.1f;
-    
+    public float hitDamage;
+
     public TMP_Text message;
 
     // Start is called before the first frame update
