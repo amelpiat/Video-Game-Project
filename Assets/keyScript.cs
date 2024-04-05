@@ -8,7 +8,7 @@ public class keyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        doorCollider.SetActive(true);
+        doorCollider.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
