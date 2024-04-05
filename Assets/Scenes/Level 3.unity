@@ -2366,6 +2366,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -9454,6 +9459,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 668710336}
   m_SourcePrefab: {fileID: 100100000, guid: ec6c7c65d6b5df2499b72030a039b14a, type: 3}
+--- !u!1 &362965981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2051513777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &362965984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362965981}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &362965985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362965981}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ccdb5cd53144fabb5af2611daa41fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrincessVarient: {fileID: 0}
+--- !u!114 &362965986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362965981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c7cc07462467142aa44ae1db045330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shield: {fileID: 0}
 --- !u!1 &363167266
 GameObject:
   m_ObjectHideFlags: 0
@@ -12697,6 +12755,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -14058,7 +14121,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -14978,6 +15041,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -15413,6 +15481,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -15596,6 +15669,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -16273,6 +16351,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -17601,6 +17684,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -18999,7 +19087,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -24434,6 +24522,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1755267851}
+    - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1755267857}
   m_SourcePrefab: {fileID: 100100000, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
 --- !u!4 &830129132 stripped
 Transform:
@@ -33343,6 +33435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -33418,7 +33515,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -35905,6 +36002,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -44085,6 +44187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -46478,6 +46585,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -50648,6 +50760,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1755267857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830129133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c7cc07462467142aa44ae1db045330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shield: {fileID: 0}
 --- !u!1 &1760310022
 GameObject:
   m_ObjectHideFlags: 0
@@ -51520,6 +51645,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
       propertyPath: potionSound
       value: 
       objectReference: {fileID: 1956474252}
@@ -51931,6 +52061,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -56742,7 +56877,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
@@ -58334,17 +58469,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shield
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
+      propertyPath: m_TagString
+      value: shield
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.255962
+      value: 7.0257144
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.255962
+      value: 7.0257144
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.255962
+      value: 7.0257144
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -58352,44 +58491,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 160
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 439.3911
+      value: 756
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9786618
+      value: 0.8625433
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000021389356
+      value: -0.0062061218
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.20547774
+      value: 0.50557184
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000004490863
+      value: -0.019432817
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.512
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 23.715
+      value: 60.742
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -2.281
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 362965984}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 362965985}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 362965986}
   m_SourcePrefab: {fileID: 100100000, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
 --- !u!1001 &2052070813
 PrefabInstance:
@@ -60733,7 +60884,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 815386814}
     - target: {fileID: 6968111140175741332, guid: c7a4607be8e904614a0e36c94130053f,
         type: 3}
       propertyPath: potionSound
