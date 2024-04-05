@@ -9486,6 +9486,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &362965985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362965981}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ccdb5cd53144fabb5af2611daa41fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrincessVarient: {fileID: 0}
+--- !u!114 &362965986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362965981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c7cc07462467142aa44ae1db045330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shield: {fileID: 0}
 --- !u!1 &363167266
 GameObject:
   m_ObjectHideFlags: 0
@@ -24496,6 +24522,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1755267851}
+    - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1755267857}
   m_SourcePrefab: {fileID: 100100000, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
 --- !u!4 &830129132 stripped
 Transform:
@@ -50730,6 +50760,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1755267857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830129133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c7cc07462467142aa44ae1db045330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shield: {fileID: 0}
 --- !u!1 &1760310022
 GameObject:
   m_ObjectHideFlags: 0
@@ -58426,6 +58469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shield
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
+      propertyPath: m_TagString
+      value: shield
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
       propertyPath: m_LocalScale.x
       value: 7.0257144
@@ -58486,6 +58533,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 362965984}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 362965985}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: fa0a723e3534aca47bcf60641f2f3a8d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 362965986}
   m_SourcePrefab: {fileID: 100100000, guid: fa0a723e3534aca47bcf60641f2f3a8d, type: 3}
 --- !u!1001 &2052070813
 PrefabInstance:
