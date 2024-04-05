@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: 9387405}
   - component: {fileID: 9387409}
   - component: {fileID: 9387408}
+  - component: {fileID: 9387410}
   m_Layer: 0
   m_Name: stairs (1)
   m_TagString: Untagged
@@ -478,7 +479,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 7.326376, y: 7.555284, z: 6.713128}
   m_Center: {x: 0.34501207, y: -2.224682, z: -0.02164793}
@@ -499,10 +500,32 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 7.326376, y: 7.555284, z: 6.713128}
   m_Center: {x: 0.34501207, y: -2.224682, z: -0.02164793}
+--- !u!64 &9387410
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9387404}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300028, guid: 9889117518dff7b42806ad82249545f8, type: 3}
 --- !u!1 &12436414
 GameObject:
   m_ObjectHideFlags: 0
@@ -11997,6 +12020,7 @@ GameObject:
   - component: {fileID: 435765996}
   - component: {fileID: 435766000}
   - component: {fileID: 435765999}
+  - component: {fileID: 435766001}
   m_Layer: 0
   m_Name: stairs
   m_TagString: Untagged
@@ -12088,7 +12112,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 7.326378, y: 7.555284, z: 6.7131295}
   m_Center: {x: 0.34501216, y: -2.224682, z: -0.021647936}
@@ -12109,10 +12133,32 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 7.326378, y: 7.555284, z: 6.7131295}
   m_Center: {x: 0.34501216, y: -2.224682, z: -0.021647936}
+--- !u!64 &435766001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435765995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300028, guid: 9889117518dff7b42806ad82249545f8, type: 3}
 --- !u!1 &435881139
 GameObject:
   m_ObjectHideFlags: 0
@@ -24500,6 +24546,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -57.305
       objectReference: {fileID: 0}
+    - target: {fileID: 9002401383592491095, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.21484515
+      objectReference: {fileID: 0}
+    - target: {fileID: 9002401383592491095, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.3061709
+      objectReference: {fileID: 0}
+    - target: {fileID: 9002401383592491095, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.6415094
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7742237579366667916, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
@@ -24550,6 +24611,7 @@ GameObject:
   - component: {fileID: 832853369}
   - component: {fileID: 832853368}
   - component: {fileID: 832853371}
+  - component: {fileID: 832853372}
   m_Layer: 0
   m_Name: stairs (2)
   m_TagString: Untagged
@@ -24641,10 +24703,32 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 7.326378, y: 7.555284, z: 6.7131295}
   m_Center: {x: 0.34501216, y: -2.224682, z: -0.021647936}
+--- !u!64 &832853372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832853367}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300028, guid: 9889117518dff7b42806ad82249545f8, type: 3}
 --- !u!1 &835412375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1232014609889344, guid: d20e1df606c9c3845a3535acb1143c89,
@@ -39516,6 +39600,7 @@ GameObject:
   - component: {fileID: 1338619017}
   - component: {fileID: 1338619016}
   - component: {fileID: 1338619019}
+  - component: {fileID: 1338619020}
   m_Layer: 0
   m_Name: stairs (3)
   m_TagString: Untagged
@@ -39607,10 +39692,32 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 7.326376, y: 7.555284, z: 6.713128}
   m_Center: {x: 0.34501207, y: -2.224682, z: -0.02164793}
+--- !u!64 &1338619020
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338619015}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300028, guid: 9889117518dff7b42806ad82249545f8, type: 3}
 --- !u!1 &1341674774
 GameObject:
   m_ObjectHideFlags: 0
