@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionDetection : MonoBehaviour
+public class CollitionDetection2 : MonoBehaviour
 {
     public WeaponController wc;
     public GameObject HitParticle;
@@ -18,14 +18,17 @@ public class CollisionDetection : MonoBehaviour
             //enemyDeathSound.Play();
             Debug.Log(other.name);
             other.GetComponent<Animator>().SetTrigger("Hit");
-            print("count"+ count);
+            print("count" + count);
+            Destroy(other.gameObject);
 
-            if (count >= 3)
+            if (count >= 2)
             {
                 count = 0;
+                print("TESTAGAIN");
                 Destroy(other.gameObject);
             }
-           
+
         }
     }
+
 }
