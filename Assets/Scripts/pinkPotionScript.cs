@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class pinkPotionScript : MonoBehaviour
 {
-    public GameObject Princess;
+    //public GameObject Princess;
     public Image healthBar;
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class pinkPotionScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "princess")
+        if (other.CompareTag("princess"))
         {
             if (healthBar.fillAmount == 1f)
             {
@@ -29,7 +29,7 @@ public class pinkPotionScript : MonoBehaviour
             }
             else
             {
-                healthBar.fillAmount += 0.1f;
+                healthBar.fillAmount += 0.2f;
 
                 Destroy(gameObject);
             }
