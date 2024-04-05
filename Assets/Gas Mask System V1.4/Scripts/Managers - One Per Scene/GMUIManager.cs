@@ -6,6 +6,7 @@ namespace GasMaskSystem
 {
     public class GMUIManager : MonoBehaviour
     {
+        public GameObject PrincessVarient;
         public enum MaskUIState { MaskNormal, MaskEquipped }
 
         public enum FilterState { FilterNumber, FilterAlarm, FilterNormal, FilterValue }

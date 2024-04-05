@@ -5,6 +5,7 @@ namespace GasMaskSystem
 {
     public class GMHealthManager : MonoBehaviour
     {
+        public GameObject PrincessVarient;
         [Header("Health Variables")]
         [Range(0, 100)] [SerializeField] private float currentHealth = 100.0f;
         [Range(0, 100)] [SerializeField] private float maxHealth = 100.0f;
