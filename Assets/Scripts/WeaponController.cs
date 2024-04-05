@@ -9,13 +9,13 @@ public class WeaponController : MonoBehaviour
     public float AttackCooldown = 1.0f;
     public bool isAttacking = false;
 
-    //public AudioSource swordSound;
+    public AudioSource swordSound;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //swordSound.Play();
+            swordSound.Play();
             if (CanAttack)
             {
                 SwordAttack();
