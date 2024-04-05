@@ -56,7 +56,8 @@ namespace GasMaskSystem
         private bool openInventory;
         private bool showUI;
 
-
+        private GameObject mainCamera;
+        private FirstPersonController player;
 
         public static GMController instance;
 
@@ -86,7 +87,7 @@ namespace GasMaskSystem
             filterTimer = maxFilterTimer;
             equipMaskTimer = maxEquipMaskTimer;
             maskBeforeTimer = maxEquipMaskTimer - 0.01f;
-            PrincessVarient = GameObject.FindWithTag("princess");
+            player = GameObject.FindWithTag("Player").GetComponent<FirstPersonController>();
             GMUIManager.instance.UpdateFilterUI(GMUIManager.FilterState.FilterNumber);
 
             if (hasGasMaskOnStart)
@@ -96,19 +97,19 @@ namespace GasMaskSystem
             }
         }
 
-        //void PlayerMovement(bool slowPlayer)
-        //{
-        //    if (slowPlayer)
-        //    {
-        //        PrincessVarient.m_WalkSpeed = walkGas;
-        //        PrincessVarient.m_RunSpeed = runGas;
-        //    }
-        //    else
-        //    {
-        //        PrincessVarient.m_WalkSpeed = walkNorm;
-        //        PrincessVarient.m_RunSpeed = runNorm;
-        //    }
-        //}
+        void PlayerMovement(bool slowPlayer)
+        {
+            if (slowPlayer)
+            {
+                player.m_WalkSpeed = walkGas;
+                player.m_RunSpeed = runGas;
+            }
+            else
+            {
+                player.m_WalkSpeed = walkNorm;
+                player.m_RunSpeed = runNorm;
+            }
+        }
 
         public void PickupGasMask()
         {
@@ -309,25 +310,25 @@ namespace GasMaskSystem
             filterChanged = false;
         }
 
-        //public void DamageGas()
-        //{
-        //    canBreath = false;
-        //    PlayerMovement(true);
-        //    GMHealthManager.instance.UpdateHealthUI();
-        //    GMHealthManager.instance.ToggleHealthRegeneration(false);
-        //    GMUIManager.instance.GasChokingEffect(true);
-        //}
+        public void DamageGas()
+        {
+            canBreath = false;
+            PlayerMovement(true);
+            GMHealthManager.instance.UpdateHealthUI();
+            GMHealthManager.instance.ToggleHealthRegeneration(false);
+            GMUIManager.instance.GasChokingEffect(true);
+        }
 
-        //public void CanBreath()
-        //{
-        //    canBreath = true;
-        //    PlayerMovement(false);
-        //    GMHealthManager.instance.ToggleHealthRegeneration(true);
-        //    if (!isGasMaskEquipped)
-        //    {
-        //        GMUIManager.instance.GasChokingEffect(false);
-        //    }
-        //}
+        public void CanBreath()
+        {
+            canBreath = true;
+            PlayerMovement(false);
+            GMHealthManager.instance.ToggleHealthRegeneration(true);
+            if (!isGasMaskEquipped)
+            {
+                GMUIManager.instance.GasChokingEffect(false);
+            }
+        }
 
         IEnumerator MaskOn()
         {
