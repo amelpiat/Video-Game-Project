@@ -15,7 +15,7 @@ public class CollisionDetection : MonoBehaviour
         if (other.tag == "Enemy" && wc.isAttacking)
         {
             count++;
-            enemyDeathSound.Play();
+            //enemyDeathSound.Play();
             Debug.Log(other.name);
             other.GetComponent<Animator>().SetTrigger("Hit");
 
