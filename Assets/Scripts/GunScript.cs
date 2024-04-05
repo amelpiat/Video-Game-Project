@@ -22,7 +22,7 @@ public class GunScript : MonoBehaviour
     int bulletsLeft, bulletsShot;
 
     //Recoil
-    public Rigidbody playerRb;
+    //public Rigidbody playerRb;
     public float recoilForce;
 
     //bools
@@ -86,9 +86,15 @@ public class GunScript : MonoBehaviour
         RaycastHit hit;
 
         //check if ray hits something
+
+
         Vector3 targetPoint;
-        if (Physics.Raycast(ray, out hit))
+
+        if (Physics.Raycast(ray, out hit)&& hit.collider.CompareTag("Enemy"))
+        {
             targetPoint = hit.point;
+            print("TEST");
+        }
         else
             targetPoint = ray.GetPoint(75); //Just a point far away from the player
 
@@ -125,7 +131,7 @@ public class GunScript : MonoBehaviour
             allowInvoke = false;
 
             //Add recoil to player (should only be called once)
-            playerRb.AddForce(-directionWithSpread.normalized * recoilForce, ForceMode.Impulse);
+            //playerRb.AddForce(-directionWithSpread.normalized * recoilForce, ForceMode.Impulse);
         }
 
         //if more than one bulletsPerTap make sure to repeat shoot function
