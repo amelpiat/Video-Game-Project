@@ -18,7 +18,7 @@ public class shieldScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "PrincessLevel2")
+        if (other.name == "PrincessLevel3")
         {
             Destroy(gameObject);
 
