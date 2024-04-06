@@ -24237,6 +24237,11 @@ PrefabInstance:
       propertyPath: Sword
       value: 
       objectReference: {fileID: 190576583}
+    - target: {fileID: 3640008490980359680, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5179573985876975445, guid: 8d42aed6b96a94f609b20a25d2f27de9,
         type: 3}
       propertyPath: WalkSpeed
@@ -24342,6 +24347,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1755267857}
+    - targetCorrespondingSourceObject: {fileID: 1031789981525190488, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1920612261}
   m_SourcePrefab: {fileID: 100100000, guid: 8d42aed6b96a94f609b20a25d2f27de9, type: 3}
 --- !u!4 &830129132 stripped
 Transform:
@@ -33037,7 +33046,7 @@ PrefabInstance:
     - target: {fileID: 6291458145789308631, guid: 7a23a28d14bca490abbb846f1c8f5fd7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 935
+      value: 914.8
       objectReference: {fileID: 0}
     - target: {fileID: 6291458145789308631, guid: 7a23a28d14bca490abbb846f1c8f5fd7,
         type: 3}
@@ -49793,6 +49802,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1746867720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1031789981525190488, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+    type: 3}
+  m_PrefabInstance: {fileID: 830129131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1749591647
 GameObject:
   m_ObjectHideFlags: 0
@@ -52708,11 +52723,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!135 &1863402603
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52795,7 +52810,7 @@ Transform:
   m_GameObject: {fileID: 1863402601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 465.38, y: 265.57, z: 984.16}
+  m_LocalPosition: {x: 471.64, y: 252.97, z: 953.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54502,12 +54517,30 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 830129131}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1746867720}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 996e9517a8e42413a9b663a9f64fa846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1920612261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746867720}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c7df5afce3846dabd067e089662c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sword: {fileID: 0}
+  Postel: {fileID: 0}
+  CanAttack: 1
+  AttackCooldown: 1
+  isAttacking: 0
+  swordSound: {fileID: 0}
 --- !u!1001 &1920895856
 PrefabInstance:
   m_ObjectHideFlags: 0
