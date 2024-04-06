@@ -93,7 +93,6 @@ public class GunScript : MonoBehaviour
         if (Physics.Raycast(ray, out hit)&& hit.collider.CompareTag("Enemy"))
         {
             targetPoint = hit.point;
-            print("TEST");
         }
         else
             targetPoint = ray.GetPoint(75); //Just a point far away from the player

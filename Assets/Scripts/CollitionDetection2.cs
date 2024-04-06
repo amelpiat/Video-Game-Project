@@ -15,11 +15,11 @@ public class CollitionDetection2 : MonoBehaviour
         if (other.tag == "Enemy" && wc.isAttacking)
         {
             count++;
-            //enemyDeathSound.Play();
             Debug.Log(other.name);
             other.GetComponent<Animator>().SetTrigger("Hit");
             print("count" + count);
             Destroy(other.gameObject);
+            Destroy(gameObject);
 
             if (count >= 2)
             {
