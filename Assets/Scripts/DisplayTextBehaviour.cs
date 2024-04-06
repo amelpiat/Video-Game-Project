@@ -31,7 +31,7 @@ public class DisplayTextBehaviour : MonoBehaviour
     {
         if (other.CompareTag("tag of object the princess collides with"))
         {
-            display.SetText(text);
+            display.SetText("Press 'n' to access night vision");
         }
     }
 
