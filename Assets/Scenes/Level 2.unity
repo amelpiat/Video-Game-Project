@@ -3155,17 +3155,32 @@ PrefabInstance:
     - target: {fileID: 3112257637886698740, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
         type: 3}
       propertyPath: m_fontColor.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3112257637886698740, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
         type: 3}
       propertyPath: m_fontColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3112257637886698740, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
         type: 3}
       propertyPath: m_fontColor.r
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346159693554791672, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346159693554791672, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3346159693554791672, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3536221780601374158, guid: 4ac06c2cb3647b041aa2b3fbdc44d646,
         type: 3}
@@ -3507,6 +3522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -7788,6 +7808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: key_gold
       objectReference: {fileID: 0}
+    - target: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.9369
@@ -7830,7 +7854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 205.2
+      value: 204.75
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8536,6 +8560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -10288,6 +10317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -17695,6 +17729,60 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c0d88e7c2988f2f4b872f230118655f1, type: 3}
+--- !u!1 &1164445222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 1597804156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164445223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164445222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1456ea1fe21e646b6e8cf7ce8d74ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorCollider: {fileID: 1278132077}
+  keySound: {fileID: 361427001}
+--- !u!114 &1164445224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164445222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360c83c39b9d131498c64cb83b00ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: {fileID: 1024250345}
+--- !u!65 &1164445225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164445222}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1167822145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 181406, guid: a41693566e2f5ca40802984f734f458f,
@@ -17832,6 +17920,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -18814,6 +18907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -20879,6 +20977,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
@@ -21899,7 +22002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -95.020004}
+  m_AnchoredPosition: {x: 0, y: -170}
   m_SizeDelta: {x: 367.1314, y: 40.9527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1401807733
@@ -25429,6 +25532,115 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: 210.339, z: 0}
+--- !u!1001 &1597804156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 105912, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_Name
+      value: key_gold (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9369
+      objectReference: {fileID: 0}
+    - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9369
+      objectReference: {fileID: 0}
+    - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9369
+      objectReference: {fileID: 0}
+    - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.29461
+      objectReference: {fileID: 0}
+    - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9408
+      objectReference: {fileID: 0}
+    - target: {fileID: 431008, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15002
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.51182365
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5118238
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5118238
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 59.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 205.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82469654
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.56557554
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1164445225}
+    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1164445224}
+    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1164445223}
+  m_SourcePrefab: {fileID: 100100000, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
 --- !u!1001 &1601021380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26141,6 +26353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -26906,6 +27123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -28442,6 +28664,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
@@ -28995,6 +29222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -30392,6 +30624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoblinHunterMain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196,
         type: 3}
@@ -33190,7 +33427,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -34761,6 +34998,7 @@ SceneRoots:
   - {fileID: 155162953}
   - {fileID: 246795088}
   - {fileID: 464645679}
+  - {fileID: 1597804156}
   - {fileID: 1278132082}
   - {fileID: 596858914}
   - {fileID: 1911759266}
