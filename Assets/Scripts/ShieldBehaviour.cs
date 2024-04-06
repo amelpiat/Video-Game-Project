@@ -19,11 +19,11 @@ public class ShieldBehaviour : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "shield")
+        if (other.CompareTag("shield"))
         {
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
 
             GetShield();
         }
