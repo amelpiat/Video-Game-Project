@@ -20,7 +20,7 @@ public class CollisionDetection : MonoBehaviour
             other.GetComponent<Animator>().SetTrigger("Hit");
             print("count"+ count);
 
-            if (count >= 3)
+            if (count >= 2)
             {
                 count = 0;
                 Destroy(other.gameObject);
