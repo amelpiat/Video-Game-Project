@@ -33868,6 +33868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: key_gold
       objectReference: {fileID: 0}
+    - target: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_TagString
+      value: key1
+      objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0818416
@@ -33931,11 +33935,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1155452112}
+      addedObject: {fileID: 1155452113}
     - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1155452113}
+      addedObject: {fileID: 1155452115}
   m_SourcePrefab: {fileID: 100100000, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
 --- !u!1001 &854587172
 PrefabInstance:
@@ -48630,19 +48634,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1155452112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155452108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 360c83c39b9d131498c64cb83b00ca12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: {fileID: 1483406323}
 --- !u!114 &1155452113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48656,6 +48647,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorCollider: {fileID: 382787657}
+--- !u!114 &1155452115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155452108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360c83c39b9d131498c64cb83b00ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: {fileID: 1483406323}
 --- !u!1001 &1158487955
 PrefabInstance:
   m_ObjectHideFlags: 0
