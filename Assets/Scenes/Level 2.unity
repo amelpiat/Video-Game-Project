@@ -16354,6 +16354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1066188748}
   - component: {fileID: 1066188749}
+  - component: {fileID: 1066188750}
   m_Layer: 0
   m_Name: WeaponHolderr
   m_TagString: Untagged
@@ -16394,6 +16395,18 @@ MonoBehaviour:
   CanAttack: 1
   AttackCooldown: 0.5
   isAttacking: 0
+--- !u!114 &1066188750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066188747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b35cbd727250cf418ff1d5aca0428cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   swordSound: {fileID: 134954840}
 --- !u!1001 &1066747325
 PrefabInstance:
