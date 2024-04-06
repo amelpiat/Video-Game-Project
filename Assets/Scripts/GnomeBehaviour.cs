@@ -9,6 +9,8 @@ using UnityEditor.VersionControl;
 
 public class GnomeBehaviour : MonoBehaviour
 {
+    //gnomes do 1 bar of damage 
+
     public Image healthBar;
     public TMP_Text restartMessage;
 

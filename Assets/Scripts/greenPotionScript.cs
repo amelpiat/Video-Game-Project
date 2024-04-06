@@ -31,7 +31,7 @@ public class greenPotionScript : MonoBehaviour
             }
             else
             {
-                healthBar.fillAmount += 0.1f;
+                healthBar.fillAmount += 0.5f;
                 Destroy(gameObject);
 
             }
