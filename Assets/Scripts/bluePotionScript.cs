@@ -7,7 +7,7 @@ public class bluePotionScript : MonoBehaviour
 {
     public GameObject PrincessVarient;
     public Image healthBar;
-    //public AudioSource potionSound;
+    public AudioSource potionSound;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class bluePotionScript : MonoBehaviour
     {
         if (other.CompareTag("princess"))
         {
-            //potionSound.Play();
+            potionSound.Play();
             if(healthBar.fillAmount == 1f)
             {
                 Destroy(gameObject);
