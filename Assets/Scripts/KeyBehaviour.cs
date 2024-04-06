@@ -11,7 +11,7 @@ public class KeyBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        key.gameObject.SetActive(false);
+        //key.gameObject.SetActive(false);
     }
 
     // Update is called once per frame

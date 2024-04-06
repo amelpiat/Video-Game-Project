@@ -905,6 +905,11 @@ PrefabInstance:
       objectReference: {fileID: 1195290354}
     - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
       propertyPath: PrincessVarient
       value: 
       objectReference: {fileID: 0}
@@ -1478,6 +1483,7 @@ GameObject:
   - component: {fileID: 102758073}
   - component: {fileID: 102758075}
   - component: {fileID: 102758074}
+  - component: {fileID: 102758076}
   m_Layer: 0
   m_Name: DoorMesh
   m_TagString: Untagged
@@ -1552,6 +1558,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102758072}
   m_Mesh: {fileID: -2596774734982952093, guid: 5518466ac73c3b94e8f1765c6c455927, type: 3}
+--- !u!65 &102758076
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102758072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10887234, y: 0.8030786, z: 1.9387611}
+  m_Center: {x: 0.017978575, y: -0.391691, z: 0.97562057}
 --- !u!1001 &106219335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2443,6 +2470,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -2604,6 +2636,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -4066,6 +4103,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -4368,6 +4410,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -4464,6 +4511,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -8825,6 +8877,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -9786,7 +9843,7 @@ Transform:
   m_GameObject: {fileID: 596858910}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.95008135, z: -0, w: 0.31200233}
-  m_LocalPosition: {x: -124.26998, y: 199.45, z: 9.800011}
+  m_LocalPosition: {x: -125.38, y: 199.45, z: 11.31}
   m_LocalScale: {x: 10.839936, y: 17.081205, z: 2.775}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12325,6 +12382,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -15524,6 +15586,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -16703,6 +16770,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -16928,6 +17000,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -19799,6 +19876,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -20182,6 +20264,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -20278,6 +20365,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -22888,6 +22980,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -25586,15 +25683,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.57
+      value: 75.83
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 205.91
+      value: 214.23
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.35
+      value: -24.81
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25978,6 +26075,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -26729,6 +26831,189 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d5856ce13fb4a2746a39e12d6a63bb15, type: 3}
+--- !u!33 &1631997010
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635059644}
+  m_Mesh: {fileID: 4300000, guid: 5abfc2d3b5ea5d64ca95d10d1a34b677, type: 3}
+--- !u!23 &1633146306
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635059644}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ed8f9be796d22ce41a61877771323fc8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &1634863524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635059644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.38, y: -9.42, z: -1.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1634965288}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1634965288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635123268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.56557554, z: 0, w: 0.82469654}
+  m_LocalPosition: {x: -105.1, y: 189.38, z: -16.853}
+  m_LocalScale: {x: 0.61521083, y: 0.61521095, z: 0.61521095}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1634863524}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1635031560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635123268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360c83c39b9d131498c64cb83b00ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: {fileID: 1024250345}
+--- !u!65 &1635031561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635123268}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1635031562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635059644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1456ea1fe21e646b6e8cf7ce8d74ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorCollider: {fileID: 1278132077}
+  keySound: {fileID: 361427001}
+--- !u!1 &1635059644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634863524}
+  - component: {fileID: 1631997010}
+  - component: {fileID: 1633146306}
+  - component: {fileID: 1635031562}
+  m_Layer: 0
+  m_Name: pPlane3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1635123268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634965288}
+  - component: {fileID: 1635031561}
+  - component: {fileID: 1635031560}
+  - component: {fileID: 1635123269}
+  m_Layer: 0
+  m_Name: key_gold (2)
+  m_TagString: key
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1635123269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635123268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1456ea1fe21e646b6e8cf7ce8d74ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorCollider: {fileID: 1278132077}
+  keySound: {fileID: 361427001}
 --- !u!1001 &1642216733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27807,6 +28092,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -29943,7 +30233,6 @@ GameObject:
   - component: {fileID: 1853163286}
   - component: {fileID: 1853163290}
   - component: {fileID: 1853163289}
-  - component: {fileID: 1853163288}
   - component: {fileID: 1853163287}
   m_Layer: 0
   m_Name: Pivot
@@ -29990,27 +30279,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &1853163288
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853163285}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1853163289
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33913,6 +34181,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1195290354}
+    - target: {fileID: 2294971707336834850, guid: 1f915cb8563ed49d69a991483b9f6989,
+        type: 3}
+      propertyPath: potionSound
+      value: 
+      objectReference: {fileID: 1911759265}
     - target: {fileID: 7841574674646380188, guid: 1f915cb8563ed49d69a991483b9f6989,
         type: 3}
       propertyPath: m_Name
@@ -35016,3 +35289,4 @@ SceneRoots:
   - {fileID: 494818575}
   - {fileID: 1627756043}
   - {fileID: 361427002}
+  - {fileID: 1634965288}
