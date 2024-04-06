@@ -9996,7 +9996,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362965981}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80c7cc07462467142aa44ae1db045330, type: 3}
   m_Name: 
@@ -24875,6 +24875,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1755267866}
+    - targetCorrespondingSourceObject: {fileID: 3310347538685169398, guid: 8d42aed6b96a94f609b20a25d2f27de9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1755267867}
     - targetCorrespondingSourceObject: {fileID: 1031789981525190488, guid: 8d42aed6b96a94f609b20a25d2f27de9,
         type: 3}
       insertIndex: -1
@@ -50660,7 +50664,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -50692,7 +50696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 815386814}
-  message: {fileID: 0}
+  message: {fileID: 227032278}
 --- !u!114 &1755267859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50721,6 +50725,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 815386814}
   message: {fileID: 227032278}
+--- !u!64 &1755267867
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830129133}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1760310022
 GameObject:
   m_ObjectHideFlags: 0
