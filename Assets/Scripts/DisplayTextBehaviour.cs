@@ -29,7 +29,7 @@ public class DisplayTextBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("tag of object the princess collides with"))
+        if (other.CompareTag("googles"))
         {
             display.SetText("Press 'n' to access night vision");
         }
@@ -37,7 +37,7 @@ public class DisplayTextBehaviour : MonoBehaviour
 
     IEnumerator clearText()
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(5);
 
         display.SetText("");
     }
