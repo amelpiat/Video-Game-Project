@@ -34,6 +34,7 @@ public class DisplayTextBehaviour : MonoBehaviour
             display.SetText("Press 'n' to access night vision");
 
             Destroy(other.gameObject);
+            StartCoroutine(clearText());
         }
     }
 
