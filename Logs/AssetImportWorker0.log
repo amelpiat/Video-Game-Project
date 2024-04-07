@@ -1,0 +1,787 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.9f1 (0c9c2e1f4bef) revision 826414'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16156 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Amelia/Desktop/reclone/Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59625
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Amelia/Desktop/reclone/Project
+C:/Users/Amelia/Desktop/reclone/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4072] Host "[IP] 172.30.174.49 [Port] 0 [Flags] 2 [Guid] 611935699 [EditorId] 611935699 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AMELIA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4072] Host "[IP] 172.30.174.49 [Port] 0 [Flags] 2 [Guid] 611935699 [EditorId] 611935699 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AMELIA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Amelia/Desktop/reclone/Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     8078 MB
+    Driver:   30.0.101.1338
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007307 seconds.
+- Loaded All Assemblies, in  1.216 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 2069ms
+	BeginReloadAssembly (435ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (491ms)
+			TypeCache.Refresh (487ms)
+				TypeCache.ScanAssembly (449ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\Amelia\Desktop\reclone\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Amelia\Desktop\reclone\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.306 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.795 seconds
+Domain Reload Profiling: 4090ms
+	BeginReloadAssembly (929ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (1095ms)
+		LoadAssemblies (826ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (568ms)
+			TypeCache.Refresh (479ms)
+				TypeCache.ScanAssembly (435ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (1031ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3592 unused Assets / (3.1 MB). Loaded Objects now: 4191.
+Memory consumption went from 139.3 MB to 136.2 MB.
+Total: 13.993400 ms (FindLiveObjects: 0.716600 ms CreateObjectMapping: 0.990500 ms MarkObjects: 9.207700 ms  DeleteObjects: 3.076500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1030680.330995 seconds.
+  path: Assets/Prefabs/WoodenSign.prefab
+  artifactKey: Guid(102fc91ca4538854ba53c7ae46736076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WoodenSign.prefab using Guid(102fc91ca4538854ba53c7ae46736076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e8d58c4046cfc394a461e1b586d1024') in 0.4940896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.757720 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cce22228e91013a43b9d3ec52afea11') in 0.0247514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.019033 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70689e433214184ecce9151771757b94') in 0.0228848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.587184 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c1fc78b36e64cbe522941de21ae3cd8') in 0.0226328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.067470 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '358569a3f4aed2b1cafa373d1e7a5e8f') in 0.021674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.560697 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd12a221aaf47b5c6b402b540f1481a2') in 0.0207806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.611406 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb5d38a05300c6d9620f50f83ff6a2b') in 0.0286323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.087324 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad99c3719a50605867fe2e16361818a5') in 0.0112567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.302381 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a85c66866eef7ce3720f1e77f69a7e3a') in 0.0208039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.247060 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f39b62b3bcbf631aba05ea26bb9f407') in 0.0239861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.509484 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e62aa7811e20a627cba9451c367b47e') in 0.0275225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.687578 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa206cd8430f0bc0c0de428ee540736') in 0.015787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.338487 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92946e7df11a7bca42b8c88bedb6def9') in 0.0211681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.702779 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12223be22ddeaa5501f21bf19c7f95be') in 0.0199979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.542354 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27c9317bebbb517e70403e7f5f6aaa0e') in 0.0210807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.446267 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8369ba56966180cf6fb6de89aa25c948') in 0.0205656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621931 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61d30fb457b4a127de73043c66965a8e') in 0.0227983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.217302 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e68ae16fad46e49036454d966f16d012') in 0.0203372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.320156 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b21d70d05a1c423a1535f209d911c991') in 0.0205514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.716079 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cfab6d3f72f66dfe0c2a8696e118a32') in 0.0241119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.318150 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4553ada678cc7441c001b9f40617e71') in 0.0199061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.405638 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef20adec0c6c187526160c2558c99df4') in 0.0202784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.837311 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f74252c10f35e1b2878060b615c0296') in 0.0127126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.127634 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8336b4f120b4da348ccfb9e0cdb9f14b') in 0.0214815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.506356 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7481faaa5d1327241838b11fbad32e1a') in 0.0218446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954985 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d5dba953770dd5f474d1a11c6e88922') in 0.0211044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.067046 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ba3cd66e82ae9d1b32e1b4fbc2b231') in 0.0203247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.789961 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31d0a5336daa6b2f5fc52769f197fdca') in 0.0226738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.853120 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36e06233d010b9669b8e5f58fcab0922') in 0.0214383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.831279 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb4e878fae60768e1796786464b20b53') in 0.020739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.971790 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c084b7c3010933478ea855dedadd3d14') in 0.0203834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.691600 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa15a5630d5c04010aa744b7b6cabd8a') in 0.0259615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786947 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b4d6be2cf678219aec17618b7bc354e') in 0.0214897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.294441 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb159095a578c3f3634f1ef696aee95c') in 0.0197513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.219694 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2883eb448c3e6e74daa00670d741ec69') in 0.0232639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.389879 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8091e59263021d77189f073b4bb7dd0') in 0.0213898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.246024 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9cd75b15ce1586b1ce4c08d63a737d9') in 0.0236001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.463779 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f4a8a43cd2382e07bf8e5c78e278956') in 0.0105729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.321084 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8979205728c49d06f60564064f6c93') in 0.0129084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.705575 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd972be77bd53c5d3f71ce533d458e377') in 0.0119149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.011962 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05cd62c109f16b1f7c52335f97648a9') in 0.0222689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.828838 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56d0ded7329d6b0a1d7b8f25e152ee3a') in 0.0253977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.328889 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379ea9932e771e523900373fcf4c2a58') in 0.0217881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.729004 seconds.
+  path: Assets/Prefabs/New Material.mat
+  artifactKey: Guid(50642f0ae19e2164abdc4b394aa15821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Material.mat using Guid(50642f0ae19e2164abdc4b394aa15821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6381136c5836c8e3224ab92d2b138fd') in 0.0736615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.296010 seconds.
+  path: Assets/Prefabs/Grey.mat
+  artifactKey: Guid(50642f0ae19e2164abdc4b394aa15821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grey.mat using Guid(50642f0ae19e2164abdc4b394aa15821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a4e8d726e1356636feaf86a2c7ead8c') in 0.0208251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.690224 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8734f865572dd848c9dad4ccc9919a33') in 0.0126766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.982307 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '130b26186d81756c2cedc89cc197c34b') in 0.0131553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.916063 seconds.
+  path: Assets/Prefabs/Brown.mat
+  artifactKey: Guid(3de3bd6c16acc874aa9d1dcd5dec957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brown.mat using Guid(3de3bd6c16acc874aa9d1dcd5dec957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ffba628107c4eefef0aa940e67de3e7') in 0.0226714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.652313 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3288cc4775562e8ef461a0defac53266') in 0.0153245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.473700 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c89761f1f2bf73f3296bce670e47e060') in 0.0240277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.007334 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e44769c2abcf3c579eb7780a9a32237d') in 0.0117166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.306601 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e36191e1dca7b50b6b45811716692e75') in 0.0118992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.554851 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a7b95f0508a23337b54ba8f560b3b23') in 0.0128452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.136002 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bae821a62af3ec595d8c7f812fb47ced') in 0.0130548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.751455 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb1f7e26cdd6e62dc8871eff81b22bd') in 0.0117586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.017007 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a45b39209f401b0deeb62be896fe841b') in 0.0120897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.007939 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c656892708723082dbee857bda7c8f04') in 0.0117877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.291018 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c79552b0287b76f8b2677d3c1582c7a2') in 0.0125319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.736129 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eee741e9158fc4c7b20f15377a5a3ef') in 0.011844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.265079 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2310bb392a07847d347f6a5af8dfdc6') in 0.0141756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.255247 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92230567a40c281cb037debc3e83c0f3') in 0.0132496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.588415 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca87d9086b14229e3328365a0c06ae05') in 0.0175691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.010691 seconds.
+  path: Assets/Prefabs/Brown.mat
+  artifactKey: Guid(3de3bd6c16acc874aa9d1dcd5dec957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brown.mat using Guid(3de3bd6c16acc874aa9d1dcd5dec957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7834c93f77c435390bd30db2b75c8146') in 0.0278755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Grey.mat
+  artifactKey: Guid(50642f0ae19e2164abdc4b394aa15821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grey.mat using Guid(50642f0ae19e2164abdc4b394aa15821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30b20feae1191d7df6c8e58f8fc9a544') in 0.027207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.774244 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e95ac26b789586db49a72165553d494') in 0.013278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.670483 seconds.
+  path: Assets/Prefabs/Goggles.prefab
+  artifactKey: Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Goggles.prefab using Guid(01dc58547bea8064383d4bf620c17313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d0f8881cd089e34fe18a7b8607d938') in 0.0131913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\Amelia\Desktop\reclone\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Amelia\Desktop\reclone\Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.222 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.986 seconds
+Domain Reload Profiling: 3205ms
+	BeginReloadAssembly (359ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (691ms)
+		LoadAssemblies (581ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (288ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (1013ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3590 unused Assets / (3.2 MB). Loaded Objects now: 4237.
+Memory consumption went from 128.7 MB to 125.5 MB.
+Total: 12.470300 ms (FindLiveObjects: 0.668100 ms CreateObjectMapping: 0.753300 ms MarkObjects: 7.995600 ms  DeleteObjects: 3.051600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
