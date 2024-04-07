@@ -7,7 +7,7 @@ using UnityEngine;
 public class DisplayTextBehaviour : MonoBehaviour
 {
     //text that will be assigned on screen 
-    public string text;
+   // public string text;
 
     //link to a UI text element in Unity
     public TMP_Text display;
