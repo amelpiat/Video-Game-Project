@@ -19,10 +19,10 @@ public class googlesDisappears : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("princess"))
+        if (other.tag == "princess")
         {
                 Destroy(gameObject);
-            }
+        }
         
     }
 }
