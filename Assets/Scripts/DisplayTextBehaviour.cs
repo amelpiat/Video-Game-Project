@@ -7,7 +7,7 @@ using UnityEngine;
 public class DisplayTextBehaviour : MonoBehaviour
 {
     //text that will be assigned on screen 
-    public string text;
+    // public string text;
 
     //link to a UI text element in Unity
     public TMP_Text display;
@@ -32,12 +32,15 @@ public class DisplayTextBehaviour : MonoBehaviour
         if (other.CompareTag("googles"))
         {
             display.SetText("Press 'n' to access night vision");
+
+            Destroy(other.gameObject);
+            StartCoroutine(clearText());
         }
     }
 
     IEnumerator clearText()
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(3);
 
         display.SetText("");
     }
