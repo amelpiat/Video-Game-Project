@@ -38,7 +38,7 @@ public class ShieldBehaviour : MonoBehaviour
 
     IEnumerator clearScreen()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(20);
 
         shield.gameObject.SetActive(false);
     }
