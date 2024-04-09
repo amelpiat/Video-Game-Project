@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class FireBehaviour : MonoBehaviour
 {
     public Image healthBar;
+    public Image shield;
     public float damage;
     public TMP_Text display;
 
@@ -28,7 +29,10 @@ public class FireBehaviour : MonoBehaviour
     {
         if (other.CompareTag("princess"))
         {
-            healthBar.fillAmount -= damage;
+            if (!shield.gameObject.activeSelf)
+            {
+                healthBar.fillAmount -= damage;
+            }
 
             if(healthBar.fillAmount <= 0)
             {
